@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+<div class="page">
+    <div class="page-sidebar bg-inverse">
+        {% include sidebar.html %}
+    </div>
+
+    <div class="page-body">
+        {{ content }}
+    </div>
+</div>
+{% include footer.html %}
+</body>
+</html>

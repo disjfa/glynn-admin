@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="container-fluid">
+    <h1>Posts</h1>
+
+    {% for post in site.posts %}
+        <h2>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <div class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</div>
+    {% endfor %}
+    <hr>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>
