@@ -12,6 +12,18 @@ module.exports = function (grunt) {
                 src: '**',
                 dest: '_sass/bootstrap'
             },
+            fontawesomecss: {
+                expand: true,
+                cwd: 'node_modules/font-awesome/scss',
+                src: '**',
+                dest: '_sass/font-awesome'
+            },
+            fontawesome: {
+                expand: true,
+                cwd: 'node_modules/font-awesome/fonts',
+                src: '**',
+                dest: 'fonts'
+            },
             javascript: {
                 expand: true,
                 flatten: true,

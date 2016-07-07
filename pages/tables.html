@@ -4,16 +4,56 @@ title: Tables
 permalink: /admin/tables/
 ---
 
-
+<h3>Default tables</h3>
 <table class="table">
     <thead>
     <tr>
-        <th>Collection 1</th>
+        <th>name</th>
+        <th>github</th>
     </tr>
     </thead>
     <tbody>
+    {% for data in site.data.tabledata %}
+        <tr>
+            <td>{{ data.name }}</td>
+            <td>{{ data.github }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<h3>Striped tables</h3>
+<table class="table table-striped">
+    <thead>
     <tr>
-        <td>aa</td>
+        <th>name</th>
+        <th>github</th>
     </tr>
+    </thead>
+    <tbody>
+    {% for data in site.data.tabledata %}
+        <tr>
+            <td>{{ data.name }}</td>
+            <td>{{ data.github }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<h3>Inversed tables</h3>
+<table class="table table-inverse">
+    <thead>
+    <tr>
+        <th>name</th>
+        <th>github</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for data in site.data.tabledata %}
+        <tr>
+            <td>{{ data.name }}</td>
+            <td>{{ data.github }}</td>
+        </tr>
+    {% endfor %}
     </tbody>
 </table>
