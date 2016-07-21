@@ -12,6 +12,10 @@ module.exports = function (grunt) {
                 src: '**',
                 dest: '_sass/bootstrap'
             },
+            bootstrapSocial: {
+                src: 'node_modules/bootstrap-social/bootstrap-social.scss',
+                dest: '_sass/bootstrap-social.scss'
+            },
             fontawesomecss: {
                 expand: true,
                 cwd: 'node_modules/font-awesome/scss',

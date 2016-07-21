@@ -6,9 +6,10 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "bootstrap/bootstrap",
+        "variables",
         "font-awesome/font-awesome",
         "syntax-highlighting",
         "page",
-        "sidebar"
-
+        "sidebar",
+        "bootstrap-social"
 ;

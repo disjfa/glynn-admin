@@ -1,17 +1,43 @@
-<button class="navbar-toggler pull-right hidden-md-up pull-xs-right" type="button" data-toggle="collapse" data-target="#main-menu">
-    ☰
-</button>
-<div class="text-md-center p-a-1">
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-</div>
-<div class="collapse navbar-toggleable-sm" id="main-menu">
-    <ul id="menu" class="sidebar">
-        {% for my_page in site.pages %}
-        {% if my_page.title %}
-        <li{% if my_page.url == page.url %} class="active"{% endif %}>
-            <a class="sidebar-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-        </li>
-        {% endif %}
-        {% endfor %}
-    </ul>
+<div class="sidebar">
+    <button class="navbar-toggler pull-right hidden-md-up pull-xs-right p-a-1" type="button" data-toggle="collapse" data-target="#main-menu">
+        ☰
+    </button>
+    <div class="text-md-center p-a-1">
+        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </div>
+    <div class="collapse navbar-toggleable-sm" id="main-menu">
+        <div class="dropdown pull-right">
+            <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn ">
+                <i class="fa fa-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <a class="dropdown-item" href="{{ "/profile/" | prepend: site.baseurl }}">
+                    <i class="fa fa-user"></i> Profile
+                </a>
+                <a class="dropdown-item" href="#">
+                    <i class="fa fa-lock"></i> Logout
+                </a>
+            </div>
+        </div>
+        <a class="sidebar-user" href="{{ "/profile/" | prepend: site.baseurl }}">
+            <div class="media">
+                <div class="media-left">
+                    <img src="{{ "/assets/profile.jpg" | prepend: site.baseurl }}" alt="Profile image" class="img-circle img-fluid sidebar-user-img">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">{{ site.name }}</h4>
+                    My user subtitle
+                </div>
+            </div>
+        </a>
+        <ul id="menu" class="sidebar-menu">
+            {% for my_page in site.pages %}
+                {% if my_page.title %}
+                    <li{% if my_page.url == page.url %} class="active"{% endif %}>
+                        <a class="sidebar-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
 </div>
