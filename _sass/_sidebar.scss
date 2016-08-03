@@ -8,7 +8,7 @@
       margin: 0;
       padding: 0;
       &.active {
-        .sidebar-link {
+        > .sidebar-link {
           background: darken($sidebar-background, 10%);
         }
       }
@@ -50,7 +50,7 @@
           li {
             .sidebar-link {
               font-size: .9em;
-              padding-left: $spacer;
+              padding-left: $spacer * 2;
               border-bottom: 0;
             }
             &.sidebar-sub {
