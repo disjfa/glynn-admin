@@ -3,7 +3,12 @@
         &#9776;
     </button>
     <div class="text-md-center p-a-1">
-        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <a class="site-title" href="{{ site.baseurl }}/">
+            <img src="{{ "/assets/barista-icons_coffea-arabica.svg" | prepend: site.baseurl }}" alt="{{ site.title }}" title="{{ site.title }}">
+            <span class="hidden-sm-up">
+                {{ site.title }}
+            </span>
+        </a>
     </div>
     <div class="collapse navbar-toggleable-sm" id="main-menu">
         <div class="dropdown pull-right">

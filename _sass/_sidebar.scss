@@ -1,4 +1,18 @@
 .sidebar {
+  .site-title {
+    display: inline-block;
+    color: lighten($sidebar-background, 40%);
+    img {
+      height: 22px;
+      width: 22px;
+      transform: scale(2);
+      @include media-breakpoint-up(sm) {
+        height: 54px;
+        width: 54px;
+        transform: scale(1);
+      }
+    }
+  }
   .sidebar-menu {
     margin: 0;
     padding: 0;

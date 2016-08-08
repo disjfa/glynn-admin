@@ -28,29 +28,29 @@ module.exports = function (grunt) {
                 expand: true,
                 cwd: 'node_modules/bootstrap/scss',
                 src: '**',
-                dest: 'templates/_sass/bootstrap'
+                dest: '_sass/bootstrap'
             },
             bootstrapSocial: {
                 src: 'node_modules/bootstrap-social/bootstrap-social.scss',
-                dest: 'templates/_sass/bootstrap-social.scss'
+                dest: '_sass/bootstrap-social.scss'
             },
             fontawesomecss: {
                 expand: true,
                 cwd: 'node_modules/font-awesome/scss',
                 src: '**',
-                dest: 'templates/_sass/font-awesome'
+                dest: '_sass/font-awesome'
             },
             fontawesome: {
                 expand: true,
                 cwd: 'node_modules/font-awesome/fonts',
                 src: '**',
-                dest: 'templates/fonts'
+                dest: 'fonts'
             },
             javascript: {
                 expand: true,
                 flatten: true,
-                src: ['node_modules/jquery/dist/jquery.min.js', 'node_modules/jquery/dist/jquery.min.map', 'node_modules/tether/dist/js/tether.min.js', 'node_modules/bootstrap/dist/js/bootstrap.min.js'],
-                dest: 'templates/scripts/'
+                src: ['node_modules/jquery/dist/jquery.min.js', 'node_modules/jquery/dist/jquery.min.map', 'node_modules/tether/dist/js/tether.min.js', 'node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/moment/min/moment-with-locales.js', 'node_modules/chart.js/dist/Chart.min.js'],
+                dest: 'scripts/'
             }
         }
     });
