@@ -24,10 +24,6 @@ google_analytics: UA-81188701-1
 markdown: kramdown
 
 # deployment
-source: templates
-destination: _gh_pages
 host: 0.0.0.0
 port: 5000
 
-sass:
-    sass_dir: _sass
