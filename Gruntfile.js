@@ -4,6 +4,26 @@ module.exports = function (grunt) {
         clean: {
             bootstrap: ['_sass/bootstrap'],
         },
+        jekyll: {
+            options: {
+                bundleExec: true,
+                src: ''
+            },
+            dist: {
+                options: {
+                    dest: '_site',
+                    config: '_config.yml'
+                }
+            },
+            serve: {
+                options: {
+                    serve: true,
+                    dest: '.jekyll',
+                    drafts: true,
+                    future: true
+                }
+            }
+        },
         copy: {
             options: {},
             bootstrap: {
@@ -39,6 +59,7 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-jekyll');
 
     grunt.registerTask('default', ['copy']);
 };

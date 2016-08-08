@@ -5,7 +5,29 @@ layout: page
 <div class="container-fluid">
     <br>
     <div class="row">
-        <div class="col-sm-6 col-lg-8">
+        <div class="col-sm-6 col-lg-4 push-sm-6 push-lg-8">
+            <div class="card">
+                {% for post in site.posts %}
+                    {% if  forloop.first == false %}
+                        <hr>
+                    {% endif %}
+                    <div class="card-block">
+                        <h4 class="card-title">
+                            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                        </h4>
+                        <div>
+                            <small class="card-text text-muted">
+                                {{ post.date | date: "%b %-d, %Y" }}
+                            </small>
+                        </div>
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary">
+                            Read more
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-8 pull-sm-6 pull-lg-4">
             <div class="row">
                 <div class="col-lg-6 col-xs-12">
                     <div class="card card-inverse card-primary text-xs-center">
@@ -49,29 +71,6 @@ layout: page
                 </div>
             </div>
 
-        </div>
-        <div class="col-sm-6 col-lg-4">
-
-            <div class="card">
-                {% for post in site.posts %}
-                    {% if  forloop.first == false %}
-                        <hr>
-                    {% endif %}
-                    <div class="card-block">
-                        <h4 class="card-title">
-                            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                        </h4>
-                        <div>
-                            <small class="card-text text-muted">
-                                {{ post.date | date: "%b %-d, %Y" }}
-                            </small>
-                        </div>
-                        <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary">
-                            Read more
-                        </a>
-                    </div>
-                {% endfor %}
-            </div>
         </div>
     </div>
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
