@@ -11,14 +11,12 @@ module.exports = function (grunt) {
             },
             dist: {
                 options: {
-                    dest: '_site',
                     config: '_config.yml'
                 }
             },
             serve: {
                 options: {
                     serve: true,
-                    dest: '.jekyll',
                     drafts: true,
                     future: true
                 }
@@ -30,29 +28,29 @@ module.exports = function (grunt) {
                 expand: true,
                 cwd: 'node_modules/bootstrap/scss',
                 src: '**',
-                dest: '_sass/bootstrap'
+                dest: 'templates/_sass/bootstrap'
             },
             bootstrapSocial: {
                 src: 'node_modules/bootstrap-social/bootstrap-social.scss',
-                dest: '_sass/bootstrap-social.scss'
+                dest: 'templates/_sass/bootstrap-social.scss'
             },
             fontawesomecss: {
                 expand: true,
                 cwd: 'node_modules/font-awesome/scss',
                 src: '**',
-                dest: '_sass/font-awesome'
+                dest: 'templates/_sass/font-awesome'
             },
             fontawesome: {
                 expand: true,
                 cwd: 'node_modules/font-awesome/fonts',
                 src: '**',
-                dest: 'fonts'
+                dest: 'templates/fonts'
             },
             javascript: {
                 expand: true,
                 flatten: true,
                 src: ['node_modules/jquery/dist/jquery.min.js', 'node_modules/jquery/dist/jquery.min.map', 'node_modules/tether/dist/js/tether.min.js', 'node_modules/bootstrap/dist/js/bootstrap.min.js'],
-                dest: 'scripts/'
+                dest: 'templates/scripts/'
             }
         }
     });
