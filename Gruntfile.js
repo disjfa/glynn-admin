@@ -1,63 +1,149 @@
 module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        app: {
+            baseurl: 'glynn-admin',
+            app: '_site'
+        },
         clean: {
-            bootstrap: ['_sass/bootstrap'],
+            bootstrap: ['_sass/bootstrap']
+        },
+        watch: {
+            jekyll: {
+                files: [
+                    'site/**/*.{html,yml,md,mkd,markdown,js,css}'
+                ],
+                tasks: ['jekyll:server']
+            },
+            livereload: {
+                options: {
+                    livereload: '<%= connect.options.livereload %>'
+                },
+                files: [
+                    '_site/**/*.{html,yml,md,mkd,markdown}',
+                    '<%= app.app %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}'
+                ]
+            },
+            sass: {
+                files: [
+                    'scss/**/*.scss'
+                ],
+                tasks: ['sass', 'copy:dist']
+            },
+            js: {
+                files: [
+                    'js/**/*.js'
+                ],
+                tasks: ['browserify', 'copy:dist']
+            }
+        },
+        connect: {
+            options: {
+                port: 9000,
+                livereload: 35729,
+                // change this to '0.0.0.0' to access the server from outside
+                hostname: '0.0.0.0',
+                path: '<%= app.baseurl %>'
+            },
+            livereload: {
+                options: {
+                    open: {
+                        target: 'http://0.0.0.0:9000/<%= app.baseurl %>'
+                    },
+                    base: [
+                        '<%= app.app %>'
+                    ]
+                }
+            },
+            dist: {
+                options: {
+                    open: {
+                        target: 'http://0.0.0.0:9000/<%= app.baseurl %>'
+                    },
+                    base: [
+                        '<%= app.app %>'
+                    ]
+                }
+            }
         },
         jekyll: {
             options: {
                 bundleExec: true,
-                src: ''
+                config: '_config_dev.yml',
+                incremental: false
             },
-            dist: {
+            docs: {},
+            github: {
                 options: {
-                    config: '_config.yml'
+                    raw: 'github: true'
                 }
             },
-            serve: {
+            server: {
                 options: {
-                    serve: true,
-                    drafts: true,
-                    future: true
+                    config: '_config_dev.yml',
+                }
+            }
+        },
+        sass: {
+            dist: {
+                options: {
+                    style: 'expanded',
+                    // tell Sass to look in the Bootstrap stylesheets directory when compiling
+                    loadPath: 'node_modules'
+                },
+                files: {
+                    // the first path is the output and the second is the input
+                    'dist/css/glynn-admin.css': 'scss/glynn-admin.scss'
+                }
+            }
+        },
+        browserify: {
+            dist: {
+                files: {
+                    'dist/js/glynn-admin.js': ['js/index.js']
                 }
             }
         },
         copy: {
             options: {},
-            bootstrap: {
-                expand: true,
-                cwd: 'node_modules/bootstrap/scss',
-                src: '**',
-                dest: '_sass/bootstrap'
-            },
-            bootstrapSocial: {
-                src: 'node_modules/bootstrap-social/bootstrap-social.scss',
-                dest: '_sass/bootstrap-social.scss'
-            },
-            fontawesomecss: {
-                expand: true,
-                cwd: 'node_modules/font-awesome/scss',
-                src: '**',
-                dest: '_sass/font-awesome'
-            },
             fontawesome: {
                 expand: true,
                 cwd: 'node_modules/font-awesome/fonts',
                 src: '**',
-                dest: 'fonts'
+                dest: 'site/fonts'
             },
             javascript: {
                 expand: true,
                 flatten: true,
                 src: ['node_modules/jquery/dist/jquery.min.js', 'node_modules/jquery/dist/jquery.min.map', 'node_modules/tether/dist/js/tether.min.js', 'node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/moment/min/moment-with-locales.js', 'node_modules/chart.js/dist/Chart.min.js'],
-                dest: 'scripts/'
+                dest: 'site/scripts/'
+            },
+            dist: {
+                expand: true,
+                cwd: 'dist/',
+                src: [
+                    '**/*'
+                ],
+                dest: 'site/'
             }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-jekyll');
+    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-browserify');
 
-    grunt.registerTask('default', ['copy']);
+    grunt.registerTask('build', ['copy']);
+    grunt.registerTask('serve', [
+        'sass',
+        'browserify',
+        'copy',
+        'jekyll:server',
+        'connect:livereload',
+        'watch'
+    ]);
 };
