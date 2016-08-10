@@ -4,10 +4,10 @@
     <title>Glynn admin</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>https://disjfa.github.io/</link>
-    <atom:link href="https://disjfa.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Aug 2016 23:44:47 +0200</pubDate>
-    <lastBuildDate>Wed, 10 Aug 2016 23:44:47 +0200</lastBuildDate>
+    <link>https://disjfa.github.io/glynn-admin/</link>
+    <atom:link href="https://disjfa.github.io/glynn-admin/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 10 Aug 2016 23:51:16 +0200</pubDate>
+    <lastBuildDate>Wed, 10 Aug 2016 23:51:16 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -23,8 +23,8 @@ I found it on a &lt;a href=&quot;https://www.smashingmagazine.com/2016/03/freebi
 
 </description>
         <pubDate>Mon, 08 Aug 2016 23:34:40 +0200</pubDate>
-        <link>https://disjfa.github.io/news/update/2016/08/08/submenu-and-forms.html</link>
-        <guid isPermaLink="true">https://disjfa.github.io/news/update/2016/08/08/submenu-and-forms.html</guid>
+        <link>https://disjfa.github.io/glynn-admin/news/update/2016/08/08/submenu-and-forms.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/08/08/submenu-and-forms.html</guid>
         
         
         <category>news</category>
@@ -53,8 +53,8 @@ Double checked if nothing broke on my pages but it did not. So i can get my hand
 
 </description>
         <pubDate>Wed, 03 Aug 2016 23:56:12 +0200</pubDate>
-        <link>https://disjfa.github.io/news/update/2016/08/03/submenu-and-forms.html</link>
-        <guid isPermaLink="true">https://disjfa.github.io/news/update/2016/08/03/submenu-and-forms.html</guid>
+        <link>https://disjfa.github.io/glynn-admin/news/update/2016/08/03/submenu-and-forms.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/08/03/submenu-and-forms.html</guid>
         
         
         <category>news</category>
@@ -78,8 +78,8 @@ I added a image on it, i use &lt;a href=&quot;https://unsplash.com/&quot;&gt;uns
 
 </description>
         <pubDate>Thu, 21 Jul 2016 22:00:03 +0200</pubDate>
-        <link>https://disjfa.github.io/news/update/2016/07/21/profile-update.html</link>
-        <guid isPermaLink="true">https://disjfa.github.io/news/update/2016/07/21/profile-update.html</guid>
+        <link>https://disjfa.github.io/glynn-admin/news/update/2016/07/21/profile-update.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/07/21/profile-update.html</guid>
         
         
         <category>news</category>
@@ -96,8 +96,8 @@ I added a image on it, i use &lt;a href=&quot;https://unsplash.com/&quot;&gt;uns
 
 </description>
         <pubDate>Thu, 07 Jul 2016 22:00:03 +0200</pubDate>
-        <link>https://disjfa.github.io/news/update/2016/07/07/posted-on-github.html</link>
-        <guid isPermaLink="true">https://disjfa.github.io/news/update/2016/07/07/posted-on-github.html</guid>
+        <link>https://disjfa.github.io/glynn-admin/news/update/2016/07/07/posted-on-github.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/07/07/posted-on-github.html</guid>
         
         
         <category>news</category>
@@ -124,8 +124,8 @@ I added a image on it, i use &lt;a href=&quot;https://unsplash.com/&quot;&gt;uns
 
 </description>
         <pubDate>Wed, 06 Jul 2016 23:17:01 +0200</pubDate>
-        <link>https://disjfa.github.io/news/update/2016/07/06/page-created.html</link>
-        <guid isPermaLink="true">https://disjfa.github.io/news/update/2016/07/06/page-created.html</guid>
+        <link>https://disjfa.github.io/glynn-admin/news/update/2016/07/06/page-created.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/07/06/page-created.html</guid>
         
         
         <category>news</category>
@@ -152,8 +152,8 @@ I added a image on it, i use &lt;a href=&quot;https://unsplash.com/&quot;&gt;uns
 
 </description>
         <pubDate>Wed, 06 Jul 2016 21:42:29 +0200</pubDate>
-        <link>https://disjfa.github.io/jekyll/update/2016/07/06/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">https://disjfa.github.io/jekyll/update/2016/07/06/welcome-to-jekyll.html</guid>
+        <link>https://disjfa.github.io/glynn-admin/jekyll/update/2016/07/06/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/jekyll/update/2016/07/06/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
