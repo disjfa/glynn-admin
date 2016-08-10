@@ -72,7 +72,11 @@ module.exports = function (grunt) {
                 config: '_config_dev.yml',
                 incremental: false
             },
-            docs: {},
+            prod: {
+                options: {
+                    config: '_config.yml'
+                }
+            },
             github: {
                 options: {
                     raw: 'github: true'
@@ -111,12 +115,6 @@ module.exports = function (grunt) {
                 cwd: 'node_modules/font-awesome/fonts',
                 src: '**',
                 dest: 'site/fonts'
-            },
-            javascript: {
-                expand: true,
-                flatten: true,
-                src: ['node_modules/jquery/dist/jquery.min.js', 'node_modules/jquery/dist/jquery.min.map', 'node_modules/tether/dist/js/tether.min.js', 'node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/moment/min/moment-with-locales.js', 'node_modules/chart.js/dist/Chart.min.js'],
-                dest: 'site/scripts/'
             },
             dist: {
                 expand: true,
@@ -161,5 +159,5 @@ module.exports = function (grunt) {
         'connect:livereload',
         'watch'
     ]);
-    grunt.registerTask('push', ['buildcontrol:pages']);
+    grunt.registerTask('push', ['jekyll:prod', 'buildcontrol:pages']);
 };
