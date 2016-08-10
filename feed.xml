@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Glynn admin</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>https://disjfa.github.io/</link>
+    <atom:link href="https://disjfa.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 10 Aug 2016 23:44:47 +0200</pubDate>
+    <lastBuildDate>Wed, 10 Aug 2016 23:44:47 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Icon and charts (.js)</title>
+        <description>&lt;h4 id=&quot;sub-menu&quot;&gt;Sub menu&lt;/h4&gt;
+
+&lt;p&gt;An icon, i had a title on the page but no icon. And i wanted an icon. So i went out on the internet and search for one. Found one in the arabica coffee bean.
+I found it on a &lt;a href=&quot;https://www.smashingmagazine.com/2016/03/freebie-barista-iconset-50-icons-eps-png-svg/&quot;&gt;smashing magazine freebee&lt;/a&gt;, added a fill color and placed it. On a mobile view i still added a title, just to be nice.&lt;/p&gt;
+
+&lt;h4 id=&quot;chartsjs&quot;&gt;Charts.js&lt;/h4&gt;
+
+&lt;p&gt;A dashboard is not complete without a chart, and on of the best plugins for charts online is &lt;a href=&quot;http://www.chartjs.org/&quot;&gt;charts.js&lt;/a&gt;. So i added a simple example for a chart on the dashboard. Enjoy.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 08 Aug 2016 23:34:40 +0200</pubDate>
+        <link>https://disjfa.github.io/news/update/2016/08/08/submenu-and-forms.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/news/update/2016/08/08/submenu-and-forms.html</guid>
+        
+        
+        <category>news</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Forms and submenu</title>
+        <description>&lt;h4 id=&quot;sub-menu&quot;&gt;Sub menu&lt;/h4&gt;
+
+&lt;p&gt;So i had a submenu, but i did not implement that. Now i did, i created a submenu with some empty pages so you can experience a submenu. You can check it out
+clicking the “menu levels” page in the menu. It is quite cool. It just uses the collapse plugin built in bootstrap. You can use a third menu layer from the scss
+files, but i do not know if i will implement that in the future, cause jekyll is quite nifty on that front.&lt;/p&gt;
+
+&lt;h4 id=&quot;forms&quot;&gt;Forms&lt;/h4&gt;
+
+&lt;p&gt;Also i added a page with some default form examples. You can check it out on the “Forms” button in the menu. I will add on that in the future, to create some nifty features.
+For now, it just is a default setup using html5 form validation.&lt;/p&gt;
+
+&lt;h4 id=&quot;bootstrap-4&quot;&gt;Bootstrap 4&lt;/h4&gt;
+
+&lt;p&gt;Oh i did check out the new alpha3 from the people of &lt;a href=&quot;http://blog.getbootstrap.com/2016/07/27/bootstrap-4-alpha-3/&quot;&gt;bootstrap&lt;/a&gt;. Things i noticed is the font changes, super nice and relaxing on the eyes.
+Double checked if nothing broke on my pages but it did not. So i can get my hands on the rest of the code. Lets play.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 03 Aug 2016 23:56:12 +0200</pubDate>
+        <link>https://disjfa.github.io/news/update/2016/08/03/submenu-and-forms.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/news/update/2016/08/03/submenu-and-forms.html</guid>
+        
+        
+        <category>news</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Updates, profile, social, awesome</title>
+        <description>&lt;p&gt;I updated some small things today, i wanted to add a profile page and add an image on the bottom of the menu.
+The first succeeded, the latter not so much. I played around with paddings and margins, but when the menu was too large i just could not put the profile button outside the screen.
+So i opted for the next best thing, add it on the top. It worked, you can check it out in the menu.
+I added a image on it, i use &lt;a href=&quot;https://unsplash.com/&quot;&gt;unsplash.con&lt;/a&gt; for pictures. This one is from &lt;a href=&quot;https://unsplash.com/photos/JAkWUtmsFXM&quot;&gt;Chris Leggat&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;On the profile page i also added some &lt;a href=&quot;https://lipis.github.io/bootstrap-social/&quot;&gt;social buttons&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I also played around with sizes, The menu on tablets (768px) is now a bit wider.&lt;/p&gt;
+
+&lt;p&gt;Oh, and some colors. I moved over to some &lt;a href=&quot;https://flatuicolors.com&quot;&gt;flat colors&lt;/a&gt; and upgraded the sidebar to encorporate one color and some variations.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 21 Jul 2016 22:00:03 +0200</pubDate>
+        <link>https://disjfa.github.io/news/update/2016/07/21/profile-update.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/news/update/2016/07/21/profile-update.html</guid>
+        
+        
+        <category>news</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Posted on github!</title>
+        <description>&lt;p&gt;Ok so i did not know it was this simple to add pages on github. Nowhere is found i just had to push a jekyll page on the gh-pages branch. So i did not.&lt;/p&gt;
+
+&lt;p&gt;Now i did so i can show you my admin page css template. It’s based upon &lt;a href=&quot;http://getbootstrap.com&quot;&gt;bootstrap(4)&lt;/a&gt; and uses &lt;a href=&quot;http://fontawesome.io&quot;&gt;font awesome&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 07 Jul 2016 22:00:03 +0200</pubDate>
+        <link>https://disjfa.github.io/news/update/2016/07/07/posted-on-github.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/news/update/2016/07/07/posted-on-github.html</guid>
+        
+        
+        <category>news</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Page created!</title>
+        <description>&lt;p&gt;aaYou’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 06 Jul 2016 23:17:01 +0200</pubDate>
+        <link>https://disjfa.github.io/news/update/2016/07/06/page-created.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/news/update/2016/07/06/page-created.html</guid>
+        
+        
+        <category>news</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 06 Jul 2016 21:42:29 +0200</pubDate>
+        <link>https://disjfa.github.io/jekyll/update/2016/07/06/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/jekyll/update/2016/07/06/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
