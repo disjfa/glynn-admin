@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Login"
+date:   2016-08-10 23:57:54 +0200
+categories: news update
+---
+
+#### Login template
+
+So i missed a login template, so i created it. You can access it in the menu.
+I think it is quite awesome and simple. I fixed it for now to be used on a phone and full screen website.

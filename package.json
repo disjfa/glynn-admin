@@ -1,14 +1,14 @@
 {
-  "name": "myblog",
-  "version": "1.0.0",
-  "description": "",
+  "name": "glynn-admin",
+  "version": "0.1.0",
+  "description": "Simple admin template using wonderful styles",
   "main": "index.js",
   "scripts": {
     "build": "npm install; grunt",
     "serve": "grunt jekyll"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Disjfa",
+  "license": "MIT",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.0.0",

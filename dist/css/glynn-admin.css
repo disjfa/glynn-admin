@@ -9153,10 +9153,26 @@ a.text-danger:focus, a.text-danger:hover {
   position: relative;
   background-color: #34495e;
 }
-.page .page-main-bg {
+
+.page-main-bg {
   min-height: 100vh;
   box-shadow: 0 0 20px #AAA;
   background: #FFF;
+}
+
+.bg-main {
+  background-color: #34495e;
+}
+
+.page-logo {
+  padding: 1rem;
+  background-color: #3d566e;
+}
+.page-logo img {
+  max-height: 150px;
+}
+.page-logo h2 {
+  color: #98afc6;
 }
 
 .sidebar .site-title {

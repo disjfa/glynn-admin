@@ -35,10 +35,26 @@
     position: relative;
     background-color: $sidebar-background;
   }
+}
 
-  .page-main-bg {
-    min-height: 100vh;
-    box-shadow: 0 0 20px #AAA;
-    background: #FFF;
+.page-main-bg {
+  min-height: 100vh;
+  box-shadow: 0 0 20px #AAA;
+  background: #FFF;
+}
+
+.bg-main {
+  background-color: $sidebar-background;
+}
+
+.page-logo {
+  padding: $spacer;
+  background-color: lighten($sidebar-background, 5%);
+  img {
+    max-height: 150px;
+  }
+  h2 {
+    color: lighten($sidebar-background, 40%);
   }
 }
+
