@@ -1,6 +1,16 @@
+.page-main-bg {
+  min-height: calc(100vh - 100px);
+  box-shadow: 0 0 20px #AAA;
+  background: #FFF;
+  @include media-breakpoint-up(lg) {
+    min-height: 100vh;
+  }
+}
+
 .page {
+  min-height: 100vh;
   background: #FBFBFB;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     height: 100vh;
     width: 100vw;
 
@@ -19,7 +29,7 @@
       overflow: auto;
     }
   }
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(xl) {
     .page-sidebar {
       width: 20vw;
     }
@@ -35,12 +45,6 @@
     position: relative;
     background-color: $sidebar-background;
   }
-}
-
-.page-main-bg {
-  min-height: 100vh;
-  box-shadow: 0 0 20px #AAA;
-  background: #FFF;
 }
 
 .bg-main {

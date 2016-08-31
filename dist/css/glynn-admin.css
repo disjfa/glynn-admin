@@ -9116,10 +9116,22 @@ a.text-danger:focus, a.text-danger:hover {
   color: #099;
 }
 
+.page-main-bg {
+  min-height: calc(100vh - 100px);
+  box-shadow: 0 0 20px #AAA;
+  background: #FFF;
+}
+@media (min-width: 992px) {
+  .page-main-bg {
+    min-height: 100vh;
+  }
+}
+
 .page {
+  min-height: 100vh;
   background: #FBFBFB;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .page {
     height: 100vh;
     width: 100vw;
@@ -9138,7 +9150,7 @@ a.text-danger:focus, a.text-danger:hover {
     overflow: auto;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .page .page-sidebar {
     width: 20vw;
   }
@@ -9152,12 +9164,6 @@ a.text-danger:focus, a.text-danger:hover {
 .page .page-sidebar {
   position: relative;
   background-color: #34495e;
-}
-
-.page-main-bg {
-  min-height: 100vh;
-  box-shadow: 0 0 20px #AAA;
-  background: #FFF;
 }
 
 .bg-main {
@@ -9184,7 +9190,7 @@ a.text-danger:focus, a.text-danger:hover {
   width: 22px;
   transform: scale(2);
 }
-@media (min-width: 544px) {
+@media (min-width: 992px) {
   .sidebar .site-title img {
     height: 54px;
     width: 54px;

@@ -6,7 +6,7 @@
       height: 22px;
       width: 22px;
       transform: scale(2);
-      @include media-breakpoint-up(sm) {
+      @include media-breakpoint-up(lg) {
         height: 54px;
         width: 54px;
         transform: scale(1);
