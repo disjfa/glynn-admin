@@ -42,7 +42,7 @@ module.exports = function (grunt) {
                 port: 9000,
                 livereload: 35729,
                 // change this to '0.0.0.0' to access the server from outside
-                hostname: '192.168.178.44',
+                hostname: '0.0.0.0',
                 path: '<%= app.baseurl %>'
             },
             livereload: {
@@ -103,8 +103,14 @@ module.exports = function (grunt) {
         },
         browserify: {
             dist: {
+                options: {
+                    expose: './node_modules',
+                    browserifyOptions: {
+                        debug: true
+                    }
+                },
                 files: {
-                    'dist/js/glynn-admin.js': ['js/index.js']
+                    'dist/js/glynn-admin.js': ['js/glynn-admin.js']
                 }
             }
         },

@@ -36,41 +36,7 @@
             </div>
         </a>
         <ul id="menu" class="sidebar-menu">
-            {% for my_page in site.pages %}
-                {% if my_page.title %}
-                    {% if my_page.group %}
-                    {% else %}
-                        {% if my_page.menu %}
-                            {% assign my_submenu = false %}
-                            {% for sub_page in site.pages %}
-                                {% if sub_page.group == my_page.menu %}
-                                    {% if sub_page.url == page.url %}
-                                        {% assign my_submenu = true %}
-                                    {% endif %}
-                                {% endif %}
-                            {% endfor %}
-
-                            <li class="sidebar-sub{% if my_submenu %} active{% endif %}">
-                                <a class="sidebar-link{% if my_submenu == false %} collapsed{% endif %}" href="#menu-{{ my_page.menu }}" data-toggle="collapse">{{ my_page.title }}</a>
-                                <ul class="sidebar-sub collapse{% if my_submenu %} in{% endif %}" id="menu-{{ my_page.menu }}">
-                                    {% for sub_page in site.pages %}
-                                        {% if sub_page.group == my_page.menu %}
-                                            <li class="{% if sub_page.url == page.url %} active{% endif %}">
-                                                <a class="sidebar-link" href="{{ sub_page.url | prepend: site.baseurl }}">{{ sub_page.title }}</a>
-                                            </li>
-                                        {% endif %}
-                                    {% endfor %}
-                                </ul>
-                            </li>
-                        {% else %}
-                            <li{% if my_page.url == page.url %} class="active"{% endif %}>
-                                <a class="sidebar-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-                            </li>
-                        {% endif %}
-                    {% endif %}
-
-                {% endif %}
-            {% endfor %}
+            {% include menu.html group='main' %}
         </ul>
     </div>
 </div>

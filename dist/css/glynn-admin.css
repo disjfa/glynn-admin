@@ -9234,8 +9234,17 @@ a.text-danger:focus, a.text-danger:hover {
   padding-left: 2rem;
   border-bottom: 0;
 }
-.sidebar .sidebar-menu li.sidebar-sub ul li.sidebar-sub li .sidebar-link {
-  padding-left: 2rem;
+.sidebar .sidebar-menu li.sidebar-sub ul li .sidebar-link:active, .sidebar .sidebar-menu li.sidebar-sub ul li .sidebar-link:hover {
+  background: #22303d;
+}
+.sidebar .sidebar-menu li.sidebar-sub ul li.sidebar-sub ul {
+  border-top: 1px solid #587ca0;
+}
+.sidebar .sidebar-menu li.sidebar-sub ul li.sidebar-sub ul li .sidebar-link {
+  padding-left: 3rem;
+}
+.sidebar .sidebar-menu li.sidebar-sub ul li.sidebar-sub ul li .sidebar-link:active, .sidebar .sidebar-menu li.sidebar-sub ul li.sidebar-sub ul li .sidebar-link:hover {
+  background: #19232d;
 }
 .sidebar .sidebar-user {
   display: block;

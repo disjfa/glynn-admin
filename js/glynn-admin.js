@@ -4,6 +4,7 @@ window.$ = window.jQuery = jQuery;
 var Tether = require('tether');
 window.Tether = Tether;
 
-require('bootstrap');
+
+require('bootstrap/dist/js/bootstrap.js');
 require('chart.js');
 require('./dashboard');
