@@ -6,9 +6,31 @@
 </description>
     <link>https://disjfa.github.io/glynn-admin/</link>
     <atom:link href="https://disjfa.github.io/glynn-admin/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Aug 2016 22:49:39 +0200</pubDate>
-    <lastBuildDate>Thu, 11 Aug 2016 22:49:39 +0200</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <pubDate>Wed, 31 Aug 2016 19:55:55 +0000</pubDate>
+    <lastBuildDate>Wed, 31 Aug 2016 19:55:55 +0000</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Symfony, submenu</title>
+        <description>&lt;h4 id=&quot;symfony&quot;&gt;Symfony&lt;/h4&gt;
+
+&lt;p&gt;I see html examples on the internet and think i miss the examples in the real world. So i started a symfony project and incapsulated this nice template and styles. I set it up with an actual user frontend using the &lt;a href=&quot;https://github.com/FriendsOfSymfony/FOSUserBundle&quot;&gt;FOSUserBundle&lt;/a&gt;. And exaple menu builder you can actually use, using the &lt;a href=&quot;http://symfony.com/doc/current/bundles/KnpMenuBundle/index.html&quot;&gt;KnpMenuBundle&lt;/a&gt;. You can find it on the &lt;a href=&quot;https://github.com/disjfa/glynn-admin-symfony&quot;&gt;github page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;submenu&quot;&gt;Submenu&lt;/h4&gt;
+
+&lt;p&gt;When i was setting up the symfony bundle i could create menus and found the third level was not styled. I did want to do that so i updated the styles. Now it does, nice.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 31 Aug 2016 19:47:54 +0000</pubDate>
+        <link>https://disjfa.github.io/glynn-admin/news/update/2016/08/31/sure-symfony.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/08/31/sure-symfony.html</guid>
+        
+        
+        <category>news</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Login</title>
@@ -17,7 +39,7 @@
 &lt;p&gt;So i missed a login template, so i created it. You can access it in the menu.
 I think it is quite awesome and simple. I fixed it for now to be used on a phone and full screen website.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 10 Aug 2016 23:57:54 +0200</pubDate>
+        <pubDate>Wed, 10 Aug 2016 21:57:54 +0000</pubDate>
         <link>https://disjfa.github.io/glynn-admin/news/update/2016/08/10/login.html</link>
         <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/08/10/login.html</guid>
         
@@ -47,7 +69,7 @@ gh-pages branch. So i moved my data back to my master branch and updated my page
 So i can use and create es6 modules when i want, next time. I like clean code.&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 10 Aug 2016 23:57:54 +0200</pubDate>
+        <pubDate>Wed, 10 Aug 2016 21:57:54 +0000</pubDate>
         <link>https://disjfa.github.io/glynn-admin/news/update/2016/08/10/moved-some-data.html</link>
         <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/08/10/moved-some-data.html</guid>
         
@@ -70,7 +92,7 @@ I found it on a &lt;a href=&quot;https://www.smashingmagazine.com/2016/03/freebi
 &lt;p&gt;A dashboard is not complete without a chart, and on of the best plugins for charts online is &lt;a href=&quot;http://www.chartjs.org/&quot;&gt;charts.js&lt;/a&gt;. So i added a simple example for a chart on the dashboard. Enjoy.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 08 Aug 2016 23:34:40 +0200</pubDate>
+        <pubDate>Mon, 08 Aug 2016 21:34:40 +0000</pubDate>
         <link>https://disjfa.github.io/glynn-admin/news/update/2016/08/08/submenu-and-forms.html</link>
         <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/08/08/submenu-and-forms.html</guid>
         
@@ -100,7 +122,7 @@ For now, it just is a default setup using html5 form validation.&lt;/p&gt;
 Double checked if nothing broke on my pages but it did not. So i can get my hands on the rest of the code. Lets play.&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 03 Aug 2016 23:56:12 +0200</pubDate>
+        <pubDate>Wed, 03 Aug 2016 21:56:12 +0000</pubDate>
         <link>https://disjfa.github.io/glynn-admin/news/update/2016/08/03/submenu-and-forms.html</link>
         <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/08/03/submenu-and-forms.html</guid>
         
@@ -125,7 +147,7 @@ I added a image on it, i use &lt;a href=&quot;https://unsplash.com/&quot;&gt;uns
 &lt;p&gt;Oh, and some colors. I moved over to some &lt;a href=&quot;https://flatuicolors.com&quot;&gt;flat colors&lt;/a&gt; and upgraded the sidebar to encorporate one color and some variations.&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 21 Jul 2016 22:00:03 +0200</pubDate>
+        <pubDate>Thu, 21 Jul 2016 20:00:03 +0000</pubDate>
         <link>https://disjfa.github.io/glynn-admin/news/update/2016/07/21/profile-update.html</link>
         <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/07/21/profile-update.html</guid>
         
@@ -143,7 +165,7 @@ I added a image on it, i use &lt;a href=&quot;https://unsplash.com/&quot;&gt;uns
 &lt;p&gt;Now i did so i can show you my admin page css template. It’s based upon &lt;a href=&quot;http://getbootstrap.com&quot;&gt;bootstrap(4)&lt;/a&gt; and uses &lt;a href=&quot;http://fontawesome.io&quot;&gt;font awesome&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 07 Jul 2016 22:00:03 +0200</pubDate>
+        <pubDate>Thu, 07 Jul 2016 20:00:03 +0000</pubDate>
         <link>https://disjfa.github.io/glynn-admin/news/update/2016/07/07/posted-on-github.html</link>
         <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/07/07/posted-on-github.html</guid>
         
@@ -165,13 +187,13 @@ I added a image on it, i use &lt;a href=&quot;https://unsplash.com/&quot;&gt;uns
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 06 Jul 2016 23:17:01 +0200</pubDate>
+        <pubDate>Wed, 06 Jul 2016 21:17:01 +0000</pubDate>
         <link>https://disjfa.github.io/glynn-admin/news/update/2016/07/06/page-created.html</link>
         <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/07/06/page-created.html</guid>
         
@@ -193,13 +215,13 @@ I added a image on it, i use &lt;a href=&quot;https://unsplash.com/&quot;&gt;uns
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 06 Jul 2016 21:42:29 +0200</pubDate>
+        <pubDate>Wed, 06 Jul 2016 19:42:29 +0000</pubDate>
         <link>https://disjfa.github.io/glynn-admin/jekyll/update/2016/07/06/welcome-to-jekyll.html</link>
         <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/jekyll/update/2016/07/06/welcome-to-jekyll.html</guid>
         
