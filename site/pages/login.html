@@ -7,7 +7,7 @@ group: main
 
 <div class="row">
     <div class="col-sm-6 push-sm-3">
-        <form action="{{ '/' | site.baseurl }}" method="get">
+        <form action="{{ '/' | prepend : site.baseurl }}" method="get">
             <div class="card bg-faded">
                 <div class="card-header bg-primary">
                     <i class="fa fa-user"></i>

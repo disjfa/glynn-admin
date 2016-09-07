@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm install; grunt",
+    "watch": "grunt serve",
     "serve": "grunt jekyll"
   },
   "author": "Disjfa",

@@ -1,0 +1,40 @@
+.message {
+  display: none;
+  position: fixed;
+  background: rgba(0, 0, 0, .5);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: $zindex-modal;
+  overflow: auto;
+  height: 100vh;
+  .message-dialog {
+    position: absolute;
+    background: #bdc3c7;
+    left: 0;
+    right: 0;
+    top: 15vh;
+    min-height: 60vh;
+    margin-bottom: 25vh;
+    overflow: auto;
+    padding-top: $spacer;
+    padding-bottom: $spacer;
+    transition: opacity .3s;
+  }
+  &:target {
+    display: block;
+  }
+}
+/* Behavior on modern browsers */
+:root .message {
+  display: block;
+  transition: all 0.3s;
+  transform-origin: center center;
+  transform: translate(0, -100%);
+  opacity: 0;
+}
+:root .message:target {
+  transform: translate(0, 0);
+  opacity: 1;
+}

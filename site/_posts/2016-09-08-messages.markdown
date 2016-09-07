@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Messages"
+date:   2016-09-08 22:38:54 +0200
+categories: news update
+---
+
+#### Messages
+
+So i do not like the small window of a bootstrap modal and find myself 
+constricted to one of them. So i set up messages, they are (for now) css 
+triggered to the target of an element.
+
+You can set these up using a message class and add default bootstrap colors 
+when you like.
