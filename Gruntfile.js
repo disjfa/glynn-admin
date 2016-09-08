@@ -28,7 +28,7 @@ module.exports = function (grunt) {
                 files: [
                     'scss/**/*.scss'
                 ],
-                tasks: ['sass', 'copy:dist']
+                tasks: ['sasslint', 'sass', 'copy:dist']
             },
             js: {
                 files: [
@@ -87,6 +87,12 @@ module.exports = function (grunt) {
                     config: '_config_dev.yml',
                 }
             }
+        },
+        sasslint: {
+            options: {
+                configFile: 'scss/.sass-lint.yml'
+            },
+            target: ['scss/**/*.scss', 'other_location/\*.scss']
         },
         sass: {
             dist: {
@@ -155,6 +161,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-build-control');
+    grunt.loadNpmTasks('grunt-sass-lint');
 
     grunt.registerTask('build', ['copy']);
     grunt.registerTask('serve', [

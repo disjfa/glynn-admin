@@ -1,105 +1,131 @@
 .sidebar {
   .site-title {
-    display: inline-block;
     color: lighten($sidebar-background, 40%);
+    display: inline-block;
+
     img {
-      height: 22px;
-      width: 22px;
-      transform: scale(2);
       @include media-breakpoint-up(lg) {
         height: 54px;
-        width: 54px;
         transform: scale(1);
+        width: 54px;
       }
+      height: 22px;
+      transform: scale(2);
+      width: 22px;
     }
-  }
-  .sidebar-menu {
-    margin: 0;
-    padding: 0;
 
-    li {
-      display: block;
-      margin: 0;
-      padding: 0;
-      &.active {
-        > .sidebar-link {
-          background: darken($sidebar-background, 10%);
-        }
-      }
-
-      .sidebar-link {
-        border-bottom: 1px solid lighten($sidebar-background, 20%);
-        color: lighten($sidebar-background, 40%);
-        display: block;
-        padding: ($spacer / 2) $spacer;
-        position: relative;
-
-        &:active,
-        &:hover {
-          background: darken($sidebar-background, 5%);
-        }
-      }
-      &.sidebar-sub {
-        > .sidebar-link {
-
-          &:after {
-            content: '\f053';
-            font-family: FontAwesome;
-            position: absolute;
-            right: $spacer / 2;
-            top: $spacer / 2;
-            transform: rotate(-90deg);
-            transition: transform .2s;
-          }
-
-          &.collapsed {
-            &:after {
-              transform: rotate(0deg);
-            }
-          }
-        }
-        ul {
-          padding: 0 0 $spacer / 2;
-          margin: 0;
-          li {
-            .sidebar-link {
-              font-size: .9em;
-              padding-left: $spacer * 2;
-              border-bottom: 0;
-              &:active,
-              &:hover {
-                background: darken($sidebar-background, 10%);
-              }
-            }
-
-            &.sidebar-sub {
-              ul {
-                border-top: 1px solid lighten($sidebar-background, 20%);
-                li {
-                  .sidebar-link {
-                    padding-left: $spacer * 3;
-                    &:active,
-                    &:hover {
-                      background: darken($sidebar-background, 15%);
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
   }
 
   .sidebar-user {
-    display: block;
-    padding: $spacer;
     background: lighten($sidebar-background, 5%);
     color: lighten($sidebar-background, 40%);
+    display: block;
+    padding: $spacer;
 
     .sidebar-user-img {
       max-width: 50px;
     }
+
   }
+
 }
+
+.sidebar-menu {
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    &.active {
+      > .sidebar-link {
+        background: darken($sidebar-background, 10%);
+      }
+    }
+
+    .sidebar-link {
+      border-bottom: 1px solid lighten($sidebar-background, 20%);
+      color: lighten($sidebar-background, 40%);
+      display: block;
+      padding: ($spacer / 2) $spacer;
+      position: relative;
+
+      &:active,
+      &:hover {
+        background: darken($sidebar-background, 5%);
+      }
+    }
+
+    &.sidebar-sub {
+      > .sidebar-link {
+
+        &::after {
+          content: '\f053';
+          font-family: FontAwesome;
+          position: absolute;
+          right: $spacer / 2;
+          top: $spacer / 2;
+          transform: rotate(-90deg);
+          transition: transform .2s;
+        }
+
+        &.collapsed {
+          &::after {
+            transform: rotate(0deg);
+          }
+
+        }
+
+      }
+
+      ul {
+        margin: 0;
+        padding: 0 0 $spacer / 2;
+
+        li {
+          .sidebar-link {
+            border-bottom: 0;
+            font-size: .9em;
+            padding-left: $spacer * 2;
+
+            &:active,
+            &:hover {
+              background: darken($sidebar-background, 10%);
+            }
+
+          }
+
+          &.sidebar-sub {
+
+            ul {
+              border-top: 1px solid lighten($sidebar-background, 20%);
+
+              li {
+
+                .sidebar-link {
+                  padding-left: $spacer * 3;
+
+                  &:active,
+                  &:hover {
+                    background: darken($sidebar-background, 15%);
+                  }
+
+                }
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+    }
+
+  }
+
+}
+

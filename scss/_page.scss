@@ -1,34 +1,37 @@
+$color-black: #000;
+
 .page-main-bg {
-  min-height: calc(100vh - 100px);
-  box-shadow: 0 0 20px #AAA;
-  background: #FFF;
   @include media-breakpoint-up(lg) {
     min-height: 100vh;
   }
+
+  background: $body-bg;
+  box-shadow: 0 0 20px $gray;
+  min-height: calc(100vh - 100px);
 }
 
 .page {
-  min-height: 100vh;
-  background: #FBFBFB;
   @include media-breakpoint-up(lg) {
     height: 100vh;
     width: 100vw;
 
     .page-sidebar {
+      box-shadow: 0 0 20px $color-black;
       float: left;
       height: 100vh;
-      width: 25vw;
       overflow: auto;
-      box-shadow: 0 0 20px #000;
+      width: 25vw;
+
     }
 
     .page-body {
       float: left;
       height: 100vh;
-      width: 75vw;
       overflow: auto;
+      width: 75vw;
     }
   }
+
   @include media-breakpoint-up(xl) {
     .page-sidebar {
       width: 20vw;
@@ -38,12 +41,17 @@
       width: 80vw;
     }
   }
+
+  background: $gray-lightest;
+  min-height: 100vh;
+
   .page-title {
     padding: $spacer 0;
   }
+
   .page-sidebar {
-    position: relative;
     background-color: $sidebar-background;
+    position: relative;
   }
 }
 
@@ -52,11 +60,13 @@
 }
 
 .page-logo {
-  padding: $spacer;
   background-color: lighten($sidebar-background, 5%);
+  padding: $spacer;
+
   img {
     max-height: 150px;
   }
+
   h2 {
     color: lighten($sidebar-background, 40%);
   }
