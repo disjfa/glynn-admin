@@ -6,9 +6,31 @@
 </description>
     <link>https://disjfa.github.io/glynn-admin/</link>
     <atom:link href="https://disjfa.github.io/glynn-admin/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Sep 2016 22:46:19 +0000</pubDate>
-    <lastBuildDate>Wed, 07 Sep 2016 22:46:19 +0000</lastBuildDate>
+    <pubDate>Thu, 08 Sep 2016 22:39:45 +0000</pubDate>
+    <lastBuildDate>Thu, 08 Sep 2016 22:39:45 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Messages</title>
+        <description>&lt;h4 id=&quot;messages&quot;&gt;Messages&lt;/h4&gt;
+
+&lt;p&gt;So i do not like the small window of a bootstrap modal and find myself 
+constricted to one of them. So i set up messages, they are (for now) css 
+triggered to the target of an element.&lt;/p&gt;
+
+&lt;p&gt;You can set these up using a message class and add default bootstrap colors 
+when you like.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 08 Sep 2016 20:38:54 +0000</pubDate>
+        <link>https://disjfa.github.io/glynn-admin/news/update/2016/09/08/messages.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/09/08/messages.html</guid>
+        
+        
+        <category>news</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Symfony, submenu</title>
