@@ -163,6 +163,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-build-control');
     grunt.loadNpmTasks('grunt-sass-lint');
 
+    grunt.registerTask('test', ['sasslint']);
     grunt.registerTask('build', ['copy']);
     grunt.registerTask('serve', [
         'sass',
