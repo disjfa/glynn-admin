@@ -1,6 +1,6 @@
 {
   "name": "glynn-admin",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Simple admin template using wonderful styles",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "grunt-sass-lint": "^0.2.0"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.3",
+    "bootstrap": "^4.0.0-alpha.5",
     "bootstrap-social": "^5.0.0",
     "chart.js": "^2.2.1",
     "font-awesome": "^4.6.3",

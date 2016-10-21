@@ -1,8 +1,8 @@
 <div class="sidebar">
-    <button class="navbar-toggler pull-right hidden-lg-up pull-xs-right p-a-1" type="button" data-toggle="collapse" data-target="#main-menu">
+    <a href="#" class="pull-right hidden-lg-up pull-xs-right py-1 px-1 text-muted" data-toggle="collapse" data-target="#main-menu">
         &#9776;
-    </button>
-    <div class="text-lg-center p-a-1">
+    </a>
+    <div class="text-lg-center py-1 px-1">
         <a class="site-title" href="{{ site.baseurl }}/">
             <img src="{{ "/assets/barista-icons_coffea-arabica.svg" | prepend: site.baseurl }}" alt="{{ site.title }}" title="{{ site.title }}">
             <span class="hidden-lg-up">
@@ -12,7 +12,7 @@
     </div>
     <div class="collapse navbar-toggleable-md" id="main-menu">
         <div class="dropdown pull-right">
-            <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn ">
+            <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn text-muted">
                 <i class="fa fa-chevron-down"></i>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
@@ -27,7 +27,7 @@
         <a class="sidebar-user" href="{{ "/profile/" | prepend: site.baseurl }}">
             <div class="media">
                 <div class="media-left">
-                    <img src="{{ "/assets/profile.jpg" | prepend: site.baseurl }}" alt="Profile image" class="img-circle img-fluid sidebar-user-img">
+                    <img src="{{ "/assets/profile.jpg" | prepend: site.baseurl }}" alt="Profile image" class="rounded img-fluid sidebar-user-img">
                 </div>
                 <div class="media-body">
                     <h4 class="media-heading">{{ site.name }}</h4>
