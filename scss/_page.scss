@@ -21,7 +21,6 @@ $color-black: #000;
       height: 100vh;
       overflow: auto;
       width: 25vw;
-
     }
 
     .page-body {
@@ -29,6 +28,7 @@ $color-black: #000;
       height: 100vh;
       overflow: auto;
       width: 75vw;
+      flex: 1;
     }
   }
 
