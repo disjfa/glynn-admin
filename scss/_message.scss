@@ -1,5 +1,4 @@
 .message {
-  background: transparentize($color-black, .5);
   bottom: 0;
   display: none;
   height: 100vh;
@@ -28,7 +27,7 @@
     transition: opacity .3s;
   }
 
-  &.in {
+  &.show {
     display: block;
     transform: translate(0, 0);
   }
@@ -45,7 +44,7 @@
     transform-origin: center center;
     transition: all .3s;
 
-    &.in,
+    &.show,
     &:target {
       opacity: 1;
       transform: translate(0, 0);

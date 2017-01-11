@@ -11918,7 +11918,6 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 }
 
 .message {
-  background: rgba(0, 0, 0, 0.5);
   bottom: 0;
   display: none;
   height: 100vh;
@@ -11945,7 +11944,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   top: 15vh;
   transition: opacity .3s;
 }
-.message.in {
+.message.show {
   display: block;
   transform: translate(0, 0);
 }
@@ -11960,7 +11959,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   transform-origin: center center;
   transition: all .3s;
 }
-:root .message.in, :root .message:target {
+:root .message.show, :root .message:target {
   opacity: 1;
   transform: translate(0, 0);
 }

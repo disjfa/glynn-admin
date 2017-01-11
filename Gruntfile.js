@@ -8,21 +8,23 @@ module.exports = function (grunt) {
         clean: {
             bootstrap: ['_sass/bootstrap']
         },
+        browserSync: {
+            bsFiles: {
+                src : '_site/**/*'
+            },
+            options: {
+                server: {
+                    baseDir: "./_site"
+                },
+                watchTask: true
+            }
+        },
         watch: {
             jekyll: {
                 files: [
                     'site/**/*.{html,yml,md,mkd,markdown,js,css}'
                 ],
                 tasks: ['jekyll:server']
-            },
-            livereload: {
-                options: {
-                    livereload: '<%= connect.options.livereload %>'
-                },
-                files: [
-                    '_site/**/*.{html,yml,md,mkd,markdown}',
-                    '<%= app.app %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}'
-                ]
             },
             sass: {
                 files: [
@@ -35,35 +37,6 @@ module.exports = function (grunt) {
                     'js/**/*.js'
                 ],
                 tasks: ['browserify', 'copy:dist']
-            }
-        },
-        connect: {
-            options: {
-                port: 9000,
-                livereload: 35729,
-                // change this to '0.0.0.0' to access the server from outside
-                hostname: '0.0.0.0',
-                path: '<%= app.baseurl %>'
-            },
-            livereload: {
-                options: {
-                    open: {
-                        target: 'http://0.0.0.0:9000/<%= app.baseurl %>'
-                    },
-                    base: [
-                        '<%= app.app %>'
-                    ]
-                }
-            },
-            dist: {
-                options: {
-                    open: {
-                        target: 'http://0.0.0.0:9000/<%= app.baseurl %>'
-                    },
-                    base: [
-                        '<%= app.app %>'
-                    ]
-                }
             }
         },
         jekyll: {
@@ -160,8 +133,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-jekyll');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-browserify');
-    grunt.loadNpmTasks('grunt-build-control');
     grunt.loadNpmTasks('grunt-sass-lint');
+    grunt.loadNpmTasks('grunt-browser-sync');
 
     grunt.registerTask('test', ['sasslint']);
     grunt.registerTask('build', ['copy']);
@@ -170,7 +143,7 @@ module.exports = function (grunt) {
         'browserify',
         'copy',
         'jekyll:server',
-        'connect:livereload',
+        'browserSync',
         'watch'
     ]);
     grunt.registerTask('push', ['jekyll:prod', 'buildcontrol:pages']);
