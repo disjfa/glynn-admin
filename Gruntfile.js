@@ -57,7 +57,7 @@ module.exports = function (grunt) {
             },
             server: {
                 options: {
-                    config: '_config_dev.yml',
+                    config: '_config_dev.yml'
                 }
             }
         },
