@@ -5,13 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
+  <title>Page layout</title>
   <meta name="description" content="A simple admin page, responsive and beautiful. For useage on your own product. I has a lot of example use cases you can implement on your own site or admin page.
 ">
 
   <link rel="stylesheet" href="/glynn-admin/css/glynn-admin.css">
   <link rel="stylesheet" href="/glynn-admin/css/highlight.css">
-  <link rel="canonical" href="https://disjfa.github.io/glynn-admin/about/">
+  <link rel="canonical" href="https://disjfa.github.io/glynn-admin/page-layout/">
   <link rel="alternate" type="application/rss+xml" title="Glynn admin" href="https://disjfa.github.io/glynn-admin/feed.xml">
 </head>
 
@@ -61,7 +61,7 @@
     
         
             
-                <li class="active">
+                <li>
                     <a class="sidebar-link" href="/glynn-admin/about/">About</a>
                 </li>
             
@@ -313,7 +313,7 @@
     
         
             
-                <li>
+                <li class="active">
                     <a class="sidebar-link" href="/glynn-admin/page-layout/">Page layout</a>
                 </li>
             
@@ -360,75 +360,77 @@
         <div class="page-main-bg container">
             
     <header>
-        <h1 class="page-title">About</h1>
+        <h1 class="page-title">Page layout</h1>
     </header>
 
 
-<div class="row bg-info text-white">
-    <div class="col-12 py-3">
-        <h1>Glynn admin</h1>
-        <p>
-            Glynn admin, an admin template build for the love of it.
-        </p>
-    </div>
-</div>
 <div class="row">
-    <div class="col-12 py-3">
-        <h4>
-            Paper effects
-        </h4>
+    <div class="col-12">
         <p>
-            It is set up using a max width on the container. We like to give a playground to play with, but when
-            monitors get to a 4k monitor resolution it stretched to the max. So we set it up to stech to a max width,
-            but when in max width we added a fading background to create a paper effect on the pages. It is beautifyl in
-            full screen, but scales down responsively to the smallest mobile screen.
+            The setup for the admin is the page layout, lets examine.
         </p>
-        <h4>
-            Setup, use vh
-        </h4>
+        <h3>Layout</h3>
         <p>
-            We learned about a css property <a href="http://caniuse.com/#search=vh">vh</a> and found it could be used
-            from as early as IE9. So we did in the page setup. And it looks awesome.
+            This is the framework for the page. It sets up the menu bar and the main content. I just added a container on the main content so it wont go wider than a bootstrap container.
         </p>
-        <h4>
-            Usage
-        </h4>
-        <p>
-            We used;
-        </p>
-        <ul>
-            <li>
-                <a href="http://getbootstrap.com/">
-                    Bootstrap v4
-                </a>
-            </li>
-            <li>
-                <a href="http://fontawesome.io/">
-                    Font Awesome
-                </a>
-            </li>
-            <li>
-                <a href="https://lipis.github.io/bootstrap-social/">
-                    Social Buttons for Bootstrap
-                </a>
-            </li>
-            <li>
-                <a href="http://www.chartjs.org/">
-                    Chart.js
-                </a>
-            </li>
-            <li>
-                <a href="https://unsplash.com/">
-                    Unsplash
-                </a>
-            </li>
-        </ul>
+        <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"page"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"page-sidebar"</span><span class="nt">&gt;</span>
+        ... sidebar
+    <span class="nt">&lt;/div&gt;</span>
 
-
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"page-body"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"page-main-bg container"</span><span class="nt">&gt;</span>
+            ... content
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+        <h3>Sidebar</h3>
+        <p>
+            An example for a sidebar, it has a couple of examples, a media object i juse for my user image. A default sidebar link and an open and closed sidebar menu.
+        </p>
+        <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"sidebar navbar-toggleable-md navbar-inverse"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"navbar-toggler navbar-toggler-right my-2 py-2"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-target=</span><span class="s">"#main-menu"</span><span class="nt">&gt;</span>
+        <span class="ni">&amp;#9776;</span>
+    <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"text-lg-center py-3 px-3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"site-title"</span> <span class="na">href=</span><span class="s">"/glynn-admin/"</span><span class="nt">&gt;</span>
+            ... site title
+        <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"collapse navbar-collapse"</span> <span class="na">id=</span><span class="s">"main-menu"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-12 px-0"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"sidebar-user"</span> <span class="na">href=</span><span class="s">"#profile"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"media"</span><span class="nt">&gt;</span>
+                    ... media object
+                <span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;/a&gt;</span>
+            <span class="nt">&lt;ul</span> <span class="na">id=</span><span class="s">"menu"</span> <span class="na">class=</span><span class="s">"sidebar-menu"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"sidebar-link"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>... sidebar link<span class="nt">&lt;/a&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"sidebar-sub"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"sidebar-link collapsed"</span> <span class="na">href=</span><span class="s">"#sub-menu-1"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span><span class="nt">&gt;</span>... toggable submenu<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"sidebar-sub collapse"</span> <span class="na">id=</span><span class="s">"sub-menu-1"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;</span>
+                            <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"sidebar-link"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>... sidebar link<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;/li&gt;</span>
+                    <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"sidebar-sub active"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"sidebar-link"</span> <span class="na">href=</span><span class="s">"#sub-menu-1"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span><span class="nt">&gt;</span>... active toggable submenu<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"sidebar-sub collapse in"</span> <span class="na">id=</span><span class="s">"sub-menu-1"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;</span>
+                            <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"sidebar-link"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>... sidebar link<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;/li&gt;</span>
+                        ... and so on
+                    <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;/ul&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
     </div>
 </div>
-
-
 
 
 
