@@ -1,0 +1,20 @@
+{
+  "projectName": "glynn-admin",
+  "projectOwner": "disjfa",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "jfmengels",
+      "name": "Jeroen Engels",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3869412?v=3",
+      "profile": "https://github.com/jfmengels",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ]
+}
