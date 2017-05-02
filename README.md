@@ -56,5 +56,7 @@ For the javascript. Just use the default bootstrap, jquery and thether javascrip
 
 Issues can be reported [here](https://github.com/disjfa/glynn-admin/issues)
 
+[package]: https://www.npmjs.com/package/glynn-admin
 [version-badge]: https://img.shields.io/npm/v/glynn-admin.svg?style=flat-square
+[license]: https://github.com/disjfa/glynn-admin/blob/master/LICENSE
 [license-badge]: https://img.shields.io/npm/l/glynn-admin.svg?style=flat-square
