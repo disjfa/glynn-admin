@@ -68,5 +68,5 @@ Issues can be reported [here](https://github.com/disjfa/glynn-admin/issues)
 [github-watch]: https://github.com/disjfa/glynn-admin/watchers
 [github-star-badge]: https://img.shields.io/github/stars/disjfa/glynn-admin.svg?style=social
 [github-star]: https://github.com/disjfa/glynn-admin/stargazers
-[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20glynn-admin!%20-%20Cool%20admin%20template!%20Thanks%20@disjfa20%E2%9C%A8%20https://github.com/disjfa/glynn-admin%20%F0%9F%A4%97
+[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20glynn-admin!%20-%20Cool%20admin%20template!%20Thanks%20@disjfa%20https://github.com/disjfa/glynn-admin%20%F0%9F%A4%97
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/disjfa/glynn-admin.svg?style=social
