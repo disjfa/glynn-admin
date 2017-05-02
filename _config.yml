@@ -9,6 +9,7 @@ baseurl: "/glynn-admin"
 url: "https://disjfa.github.io"
 github_url:  https://github.com/disjfa/glynn-admin
 github_username:  disjfa
+github_base: /tree/master/site/
 
 # Google
 google_analytics: UA-83598448-1

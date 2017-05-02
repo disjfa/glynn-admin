@@ -1,5 +1,8 @@
 # glynn-admin
 
+[![version][version-badge]][package]
+[![MIT License][license-badge]][LICENSE]
+
 A simple and useful admin page interface. An example can be found here: [glynn-admin](https://disjfa.github.io/glynn-admin/).
 
 # instalation

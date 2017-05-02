@@ -14,6 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://disjfa.github.io" # the base hostname & protocol for your site
 github_url:  https://github.com/disjfa/glynn-admin
 github_username:  disjfa
+github_base: /tree/master/site/
 
 # Build settings
 markdown: kramdown
