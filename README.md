@@ -3,6 +3,10 @@
 [![version][version-badge]][package]
 [![MIT License][license-badge]][LICENSE]
 
+[![Watch on GitHub][github-watch-badge]][github-watch]
+[![Star on GitHub][github-star-badge]][github-star]
+[![Tweet][twitter-badge]][twitter]
+
 A simple and useful admin page interface. An example can be found here: [glynn-admin](https://disjfa.github.io/glynn-admin/).
 
 # instalation
@@ -60,3 +64,9 @@ Issues can be reported [here](https://github.com/disjfa/glynn-admin/issues)
 [version-badge]: https://img.shields.io/npm/v/glynn-admin.svg?style=flat-square
 [license]: https://github.com/disjfa/glynn-admin/blob/master/LICENSE
 [license-badge]: https://img.shields.io/npm/l/glynn-admin.svg?style=flat-square
+[github-watch-badge]: https://img.shields.io/github/watchers/disjfa/glynn-admin.svg?style=social
+[github-watch]: https://github.com/disjfa/glynn-admin/watchers
+[github-star-badge]: https://img.shields.io/github/stars/disjfa/glynn-admin.svg?style=social
+[github-star]: https://github.com/disjfa/glynn-admin/stargazers
+[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20glynn-admin!%20%E2%9C%A8%20Recognize%20all%20contributors,%20not%20just%20the%20ones%20who%20commit%20code%20%E2%9C%A8%20https://github.com/disjfa/glynn-admin%20%F0%9F%A4%97
+[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/disjfa/glynn-admin.svg?style=social
