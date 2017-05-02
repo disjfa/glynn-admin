@@ -2,7 +2,7 @@
 
 [![version][version-badge]][package]
 [![MIT License][license-badge]][LICENSE]
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 [![Watch on GitHub][github-watch-badge]][github-watch]
 [![Star on GitHub][github-star-badge]][github-star]
@@ -66,8 +66,8 @@ Issues can be reported [here](https://github.com/disjfa/glynn-admin/issues)
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars2.githubusercontent.com/u/3869412?v=3" width="100px;"/><br /><sub>Jeroen Engels</sub>](https://github.com/jfmengels)<br />[📖](https://github.com/disjfa/glynn-admin/commits?author=jfmengels "Documentation") | [<img src="https://avatars0.githubusercontent.com/u/632778?v=3" width="100px;"/><br /><sub>disjfa</sub>](http://www.disjfa.nl)<br />[📖](https://github.com/disjfa/glynn-admin/commits?author=disjfa "Documentation") [💻](https://github.com/disjfa/glynn-admin/commits?author=disjfa "Code") [💬](#question-disjfa "Answering Questions") |
-| :---: | :---: |
+| [<img src="https://avatars0.githubusercontent.com/u/632778?v=3" width="100px;"/><br /><sub>disjfa</sub>](http://www.disjfa.nl)<br />[📖](https://github.com/disjfa/glynn-admin/commits?author=disjfa "Documentation") [💻](https://github.com/disjfa/glynn-admin/commits?author=disjfa "Code") [💬](#question-disjfa "Answering Questions") |
+| :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
