@@ -10905,9 +10905,6 @@ a.text-dark:focus, a.text-dark:hover {
   color: #98afc6;
 }
 
-.sidebar {
-  display: flex;
-}
 .sidebar .site-title {
   color: #98afc6;
   display: inline-block;
