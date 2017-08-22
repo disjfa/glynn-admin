@@ -1,4 +1,5 @@
 .sidebar {
+  display: flex;
   .site-title {
     color: lighten($sidebar-background, 40%);
     display: inline-block;

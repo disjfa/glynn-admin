@@ -6,7 +6,7 @@ $color-black: #000;
   }
 
   background: $body-bg;
-  box-shadow: 0 0 20px $gray;
+  box-shadow: 0 0 20px $gray-500;
   min-height: calc(100vh - 100px);
 }
 
@@ -42,7 +42,7 @@ $color-black: #000;
     }
   }
 
-  background: $gray-lightest;
+  background: $gray-200;
   min-height: 100vh;
 
   .page-title {

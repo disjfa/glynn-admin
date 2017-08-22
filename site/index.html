@@ -5,14 +5,11 @@ layout: page
 <div class="container-fluid">
     <br>
     <div class="row">
-        <div class="col-sm-6 col-lg-4 push-sm-6 push-lg-8">
-            <div class="card">
+        <div class="col-md-6 col-lg-4">
+            <div class="list-group">
                 {% for post in site.posts %}
-                    {% if  forloop.first == false %}
-                        <hr>
-                    {% endif %}
-                    <div class="card-block">
-                        <h4 class="card-title">
+                    <div class="list-group-item">
+                        <h4>
                             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                         </h4>
                         <div>
@@ -27,12 +24,12 @@ layout: page
                 {% endfor %}
             </div>
         </div>
-        <div class="col-sm-6 col-lg-8 pull-sm-6 pull-lg-4">
+        <div class="col-sm-6 col-lg-8">
             <div class="row">
                 <div class="col-12">
-                    <div class="card bg-faded">
+                    <div class="card ">
                         <h3 class="card-header">Added some charts</h3>
-                        <div class="card-block">
+                        <div class="card-body">
                             <canvas id="chart-1"></canvas>
                         </div>
                     </div>
@@ -44,8 +41,8 @@ layout: page
                     <h3>Blocks</h3>
                 </div>
                 <div class="col-lg-6 col-12 py-2">
-                    <div class="card card-inverse card-primary text-xs-center">
-                        <div class="card-block">
+                    <div class="card text-white bg-primary text-xs-center">
+                        <div class="card-body">
                             <blockquote class="card-blockquote">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                 <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
@@ -54,8 +51,8 @@ layout: page
                     </div>
                 </div>
                 <div class="col-lg-6 col-12 py-2">
-                    <div class="card card-inverse card-info text-xs-center">
-                        <div class="card-block">
+                    <div class="card text-white bg-info text-xs-center">
+                        <div class="card-body">
                             <blockquote class="card-blockquote">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                 <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
@@ -64,8 +61,8 @@ layout: page
                     </div>
                 </div>
                 <div class="col-lg-6 col-12 py-2">
-                    <div class="card card-inverse card-warning text-xs-center">
-                        <div class="card-block">
+                    <div class="card text-white bg-warning text-xs-center">
+                        <div class="card-body">
                             <blockquote class="card-blockquote">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                 <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
@@ -74,8 +71,8 @@ layout: page
                     </div>
                 </div>
                 <div class="col-lg-6 col-12 py-2">
-                    <div class="card card-inverse card-success text-xs-center">
-                        <div class="card-block">
+                    <div class="card text-white bg-success text-xs-center">
+                        <div class="card-body">
                             <blockquote class="card-blockquote">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                 <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>

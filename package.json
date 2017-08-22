@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm install; grunt",
-    "watch": "grunt serve",
+    "dev": "grunt serve",
     "serve": "grunt jekyll",
     "add": "all-contributors add",
     "generate": "all-contributors generate"
@@ -33,6 +33,6 @@
     "font-awesome": "^4.6.3",
     "jquery": "^3.0.0",
     "moment": "^2.14.1",
-    "tether": "^1.3.2"
+    "popper.js": "^1.12.3"
   }
 }
