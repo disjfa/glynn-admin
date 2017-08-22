@@ -18,10 +18,7 @@
 <body>
 <div class="page">
     <div class="page-sidebar">
-        <div class="sidebar navbar-toggleable-md navbar-inverse">
-    <a href="#" class="navbar-toggler navbar-toggler-right my-2 py-2" data-toggle="collapse" data-target="#main-menu">
-        &#9776;
-    </a>
+        <div class="sidebar navbar navbar-expand-lg navbar-dark d-lg-block px-0">
     <div class="text-lg-center py-3 px-3">
         <a class="site-title" href="/glynn-admin/">
             <img src="/glynn-admin/assets/barista-icons_coffea-arabica.svg" alt="Glynn admin" title="Glynn admin">
@@ -30,6 +27,9 @@
             </span>
         </a>
     </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse" id="main-menu">
         <div class="col-12 px-0">
             <div class="dropdown pull-right">
@@ -368,15 +368,15 @@
     A page with a side menu. The basics is that it is on the side. When a small device sees the page the sidebar is collapsed and a collapse icon apears.
 </p>
 
-<div class="navbar-toggleable-md">
+<div class="navbar-expand-lg">
     <div class="row ">
-        <div class="hidden-lg-up col-12 bg-primary text-xs-right">
+        <div class="d-lg-none col-12 bg-primary text-xs-right">
             <a href="#side-menu" data-toggle="collapse" class="btn btn-default bg-primary text-white">
                 <i class="fa fa-life-ring"></i>
                 Show menu
             </a>
         </div>
-        <div class="col-lg-3 col-12 bg-info text-white navbar-collapse collapse py-1" id="side-menu">
+        <div class="col-lg-3 col-12 bg-info text-white collapse navbar-collapse py-1" id="side-menu">
             <div>
                 <h3>
                     Sidemenu
@@ -407,15 +407,15 @@
 </div>
 <hr>
 <h3>html</h3>
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar-toggleable-md"</span><span class="nt">&gt;</span>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar-expand-lg"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row "</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"hidden-lg-up col-12 bg-primary text-xs-right"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"d-lg-none col-12 bg-primary text-xs-right"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#side-menu"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">class=</span><span class="s">"btn btn-default bg-primary text-white"</span><span class="nt">&gt;</span>
                 <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-life-ring"</span><span class="nt">&gt;&lt;/i&gt;</span>
                 Show menu
             <span class="nt">&lt;/a&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
-        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-lg-3 col-12 bg-info text-white navbar-collapse collapse py-1"</span> <span class="na">id=</span><span class="s">"side-menu"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-lg-3 col-12 bg-info text-white collapse navbar-collapse py-1"</span> <span class="na">id=</span><span class="s">"side-menu"</span><span class="nt">&gt;</span>
             <span class="nt">&lt;div&gt;</span>
                 <span class="nt">&lt;h3&gt;</span>
                     Sidemenu
