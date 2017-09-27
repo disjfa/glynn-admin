@@ -1,8 +1,14 @@
 {
   "name": "glynn-admin",
-  "version": "0.1.5",
-  "description": "Simple admin template using wonderful styles",
+  "version": "0.1.7",
   "main": "index.js",
+  "author":  {
+    "name": "disjfa",
+    "email": "disjfa@disjfa.nl"
+  },
+  "license": "MIT",
+  "homepage": "https://disjfa.github.io/glynn-admin/",
+  "description": "Simple admin template using wonderful styles",
   "scripts": {
     "build": "npm install; grunt",
     "dev": "grunt serve",
@@ -10,8 +16,6 @@
     "add": "all-contributors add",
     "generate": "all-contributors generate"
   },
-  "author": "Disjfa",
-  "license": "MIT",
   "devDependencies": {
     "all-contributors-cli": "^4.3.0",
     "grunt": "^1.0.1",
