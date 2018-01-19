@@ -6,9 +6,29 @@
 </description>
     <link>https://disjfa.github.io/glynn-admin/</link>
     <atom:link href="https://disjfa.github.io/glynn-admin/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 Aug 2017 22:07:52 +0000</pubDate>
-    <lastBuildDate>Tue, 22 Aug 2017 22:07:52 +0000</lastBuildDate>
-    <generator>Jekyll v3.5.2</generator>
+    <pubDate>Fri, 19 Jan 2018 22:19:14 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Jan 2018 22:19:14 +0000</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Bootstrap4!</title>
+        <description>&lt;p&gt;Ah yeah, bootstrap4 is finally out of release. Update required.&lt;/p&gt;
+
+&lt;p&gt;Also removed some grunt in favor of webpack encore.&lt;/p&gt;
+
+&lt;p&gt;You can check out bootstrap &lt;a href=&quot;https://getbootstrap.com/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 25 Jan 2017 19:17:01 +0000</pubDate>
+        <link>https://disjfa.github.io/glynn-admin/news/update/2017/01/25/bootstrap4.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2017/01/25/bootstrap4.html</guid>
+        
+        
+        <category>news</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Page layout!</title>
@@ -209,24 +229,6 @@ I added a image on it, i use &lt;a href=&quot;https://unsplash.com/&quot;&gt;uns
         <pubDate>Thu, 21 Jul 2016 20:00:03 +0000</pubDate>
         <link>https://disjfa.github.io/glynn-admin/news/update/2016/07/21/profile-update.html</link>
         <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/07/21/profile-update.html</guid>
-        
-        
-        <category>news</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Posted on github!</title>
-        <description>&lt;p&gt;Ok so i did not know it was this simple to add pages on github. Nowhere is found i just had to push a jekyll page on the gh-pages branch. So i did not.&lt;/p&gt;
-
-&lt;p&gt;Now i did so i can show you my admin page css template. It’s based upon &lt;a href=&quot;http://getbootstrap.com&quot;&gt;bootstrap(4)&lt;/a&gt; and uses &lt;a href=&quot;http://fontawesome.io&quot;&gt;font awesome&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 07 Jul 2016 20:00:03 +0000</pubDate>
-        <link>https://disjfa.github.io/glynn-admin/news/update/2016/07/07/posted-on-github.html</link>
-        <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/07/07/posted-on-github.html</guid>
         
         
         <category>news</category>

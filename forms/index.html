@@ -9,7 +9,7 @@
   <meta name="description" content="A simple admin page, responsive and beautiful. For useage on your own product. I has a lot of example use cases you can implement on your own site or admin page.
 ">
 
-  <link rel="stylesheet" href="/glynn-admin/css/glynn-admin.css">
+  <link rel="stylesheet" href="/glynn-admin/build/glynn-admin.css">
   <link rel="stylesheet" href="/glynn-admin/css/highlight.css">
   <link rel="canonical" href="https://disjfa.github.io/glynn-admin/forms/">
   <link rel="alternate" type="application/rss+xml" title="Glynn admin" href="https://disjfa.github.io/glynn-admin/feed.xml">
@@ -22,12 +22,12 @@
     <div class="text-lg-center py-3 px-3">
         <a class="site-title" href="/glynn-admin/">
             <img src="/glynn-admin/assets/barista-icons_coffea-arabica.svg" alt="Glynn admin" title="Glynn admin">
-            <span class="hidden-lg-up">
+            <span class="d-xl-none d-lg-none">
                 Glynn admin
             </span>
         </a>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="main-menu">
@@ -429,27 +429,24 @@
                     
                         
                             <div>
-                                <label class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" name="default-example-checkbox-one">
-                                    <span class="custom-control-indicator"></span>
-                                    <span class="custom-control-description">one</span>
-                                </label>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="default-example-checkbox-one" name="default-example-checkbox-one">
+                                    <label class="custom-control-label" for="default-example-checkbox-one">one</label>
+                                </div>
                             </div>
                         
                             <div>
-                                <label class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" name="default-example-checkbox-two">
-                                    <span class="custom-control-indicator"></span>
-                                    <span class="custom-control-description">two</span>
-                                </label>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="default-example-checkbox-two" name="default-example-checkbox-two">
+                                    <label class="custom-control-label" for="default-example-checkbox-two">two</label>
+                                </div>
                             </div>
                         
                             <div>
-                                <label class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" name="default-example-checkbox-three">
-                                    <span class="custom-control-indicator"></span>
-                                    <span class="custom-control-description">three</span>
-                                </label>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="default-example-checkbox-three" name="default-example-checkbox-three">
+                                    <label class="custom-control-label" for="default-example-checkbox-three">three</label>
+                                </div>
                             </div>
                         
                         
@@ -462,27 +459,24 @@
                     
                         
                             <div>
-                                <label class="custom-control custom-radio">
-                                    <input type="radio" class="custom-control-input" name="default-example-radio" required>
-                                    <span class="custom-control-indicator"></span>
-                                    <span class="custom-control-description">one</span>
-                                </label>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" class="custom-control-input" id="default-example-radio-one" name="default-example-radio" required>
+                                    <label class="custom-control-label" for="default-example-radio-one">one</label>
+                                </div>
                             </div>
                         
                             <div>
-                                <label class="custom-control custom-radio">
-                                    <input type="radio" class="custom-control-input" name="default-example-radio" required>
-                                    <span class="custom-control-indicator"></span>
-                                    <span class="custom-control-description">two</span>
-                                </label>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" class="custom-control-input" id="default-example-radio-two" name="default-example-radio" required>
+                                    <label class="custom-control-label" for="default-example-radio-two">two</label>
+                                </div>
                             </div>
                         
                             <div>
-                                <label class="custom-control custom-radio">
-                                    <input type="radio" class="custom-control-input" name="default-example-radio" required>
-                                    <span class="custom-control-indicator"></span>
-                                    <span class="custom-control-description">three</span>
-                                </label>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" class="custom-control-input" id="default-example-radio-three" name="default-example-radio" required>
+                                    <label class="custom-control-label" for="default-example-radio-three">three</label>
+                                </div>
                             </div>
                         
                         
@@ -580,27 +574,24 @@
                         
                             
                                 <div>
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" name="inline-example-checkbox-one">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">one</span>
-                                    </label>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="inline-example-checkbox-one" name="inline-example-checkbox-one">
+                                        <label class="custom-control-label" for="inline-example-checkbox-one">one</label>
+                                    </div>
                                 </div>
                             
                                 <div>
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" name="inline-example-checkbox-two">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">two</span>
-                                    </label>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="inline-example-checkbox-two" name="inline-example-checkbox-two">
+                                        <label class="custom-control-label" for="inline-example-checkbox-two">two</label>
+                                    </div>
                                 </div>
                             
                                 <div>
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" name="inline-example-checkbox-three">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">three</span>
-                                    </label>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="inline-example-checkbox-three" name="inline-example-checkbox-three">
+                                        <label class="custom-control-label" for="inline-example-checkbox-three">three</label>
+                                    </div>
                                 </div>
                             
                             
@@ -615,27 +606,24 @@
                         
                             
                                 <div>
-                                    <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" name="inline-example-radio" required>
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">one</span>
-                                    </label>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="inline-example-radio-one" name="inline-example-radio" required>
+                                        <label class="custom-control-label" for="inline-example-radio-one">one</label>
+                                    </div>
                                 </div>
                             
                                 <div>
-                                    <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" name="inline-example-radio" required>
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">two</span>
-                                    </label>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="inline-example-radio-two" name="inline-example-radio" required>
+                                        <label class="custom-control-label" for="inline-example-radio-two">two</label>
+                                    </div>
                                 </div>
                             
                                 <div>
-                                    <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" name="inline-example-radio" required>
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">three</span>
-                                    </label>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="inline-example-radio-three" name="inline-example-radio" required>
+                                        <label class="custom-control-label" for="inline-example-radio-three">three</label>
+                                    </div>
                                 </div>
                                 
                     </div>
@@ -713,6 +701,6 @@
     </script>
 
 
-<script src="/glynn-admin/js/glynn-admin.js"></script>
+<script src="/glynn-admin/build/glynn-admin.js"></script>
 </body>
 </html>
