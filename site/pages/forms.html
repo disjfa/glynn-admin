@@ -23,21 +23,19 @@ group: main
                         {% elsif data.type == "checkbox" %}
                         {% for option in data.options %}
                             <div>
-                                <label class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" name="default-{{ data.id }}-{{ option }}">
-                                    <span class="custom-control-indicator"></span>
-                                    <span class="custom-control-description">{{ option }}</span>
-                                </label>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="default-{{ data.id }}-{{ option }}" name="default-{{ data.id }}-{{ option }}">
+                                    <label class="custom-control-label" for="default-{{ data.id }}-{{ option }}">{{ option }}</label>
+                                </div>
                             </div>
                         {% endfor %}
                         {% elsif data.type == "radio" %}
                         {% for option in data.options %}
                             <div>
-                                <label class="custom-control custom-radio">
-                                    <input type="radio" class="custom-control-input" name="default-{{ data.id }}" required>
-                                    <span class="custom-control-indicator"></span>
-                                    <span class="custom-control-description">{{ option }}</span>
-                                </label>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" class="custom-control-input" id="default-{{ data.id }}-{{ option }}" name="default-{{ data.id }}" required>
+                                    <label class="custom-control-label" for="default-{{ data.id }}-{{ option }}">{{ option }}</label>
+                                </div>
                             </div>
                         {% endfor %}
                         {% elsif  data.type == "textarea" %}
@@ -73,21 +71,19 @@ group: main
                             {% elsif data.type == "checkbox" %}
                             {% for option in data.options %}
                                 <div>
-                                    <label class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" name="inline-{{ data.id }}-{{ option }}">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">{{ option }}</span>
-                                    </label>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="inline-{{ data.id }}-{{ option }}" name="inline-{{ data.id }}-{{ option }}">
+                                        <label class="custom-control-label" for="inline-{{ data.id }}-{{ option }}">{{ option }}</label>
+                                    </div>
                                 </div>
                             {% endfor %}
                             {% elsif data.type == "radio" %}
                             {% for option in data.options %}
                                 <div>
-                                    <label class="custom-control custom-radio">
-                                        <input type="radio" class="custom-control-input" name="inline-{{ data.id }}" required>
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description">{{ option }}</span>
-                                    </label>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="inline-{{ data.id }}-{{ option }}" name="inline-{{ data.id }}" required>
+                                        <label class="custom-control-label" for="inline-{{ data.id }}-{{ option }}">{{ option }}</label>
+                                    </div>
                                 </div>
                             {% endfor %}    {% elsif  data.type == "textarea" %}
                             <textarea name="inline-{{ data.id }}" id="inline-{{ data.id }}" class="form-control" required></textarea>

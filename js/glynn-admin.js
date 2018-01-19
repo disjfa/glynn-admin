@@ -1,5 +1,4 @@
-var jQuery = require('jquery');
-window.$ = window.jQuery = jQuery;
+require('./../scss/glynn-admin.scss');
 
 var Popper = require('popper.js');
 window.Popper = Popper;

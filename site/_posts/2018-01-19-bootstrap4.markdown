@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Bootstrap4!"
+date:   2017-01-25 21:17:01 +0200
+categories: news update
+---
+Ah yeah, bootstrap4 is finally out of release. Update required.
+
+Also removed some grunt in favor of webpack encore.
+
+You can check out bootstrap [here][page-layout].
+
+[page-layout]: https://getbootstrap.com/
+
