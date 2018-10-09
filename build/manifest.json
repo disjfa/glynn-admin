@@ -1,9 +1,14 @@
 {
-  "build/fonts/fontawesome-webfont.eot": "/glynn-admin/build/fonts/fontawesome-webfont.674f50d2.eot",
-  "build/fonts/fontawesome-webfont.ttf": "/glynn-admin/build/fonts/fontawesome-webfont.b06871f2.ttf",
-  "build/fonts/fontawesome-webfont.woff": "/glynn-admin/build/fonts/fontawesome-webfont.fee66e71.woff",
-  "build/fonts/fontawesome-webfont.woff2": "/glynn-admin/build/fonts/fontawesome-webfont.af7ae505.woff2",
-  "build/glynn-admin.css": "/glynn-admin/build/glynn-admin.css",
   "build/glynn-admin.js": "/glynn-admin/build/glynn-admin.js",
-  "build/images/fontawesome-webfont.svg": "/glynn-admin/build/images/fontawesome-webfont.912ec66d.svg"
+  "build/glynn-admin.css": "/glynn-admin/build/glynn-admin.css",
+  "build/fonts/fa-solid-900.woff": "/glynn-admin/build/fonts/fa-solid-900.fc99cf29.woff",
+  "build/fonts/fa-solid-900.woff2": "/glynn-admin/build/fonts/fa-solid-900.946f7400.woff2",
+  "build/fonts/fa-solid-900.ttf": "/glynn-admin/build/fonts/fa-solid-900.d9e91b32.ttf",
+  "build/fonts/fa-brands-400.eot": "/glynn-admin/build/fonts/fa-brands-400.3cd80df0.eot",
+  "build/fonts/fa-brands-400.woff": "/glynn-admin/build/fonts/fa-brands-400.cb899fd0.woff",
+  "build/fonts/fa-solid-900.eot": "/glynn-admin/build/fonts/fa-solid-900.8edbef6a.eot",
+  "build/images/fa-solid-900.svg": "/glynn-admin/build/images/fa-solid-900.1d220cf9.svg",
+  "build/fonts/fa-brands-400.ttf": "/glynn-admin/build/fonts/fa-brands-400.94eef589.ttf",
+  "build/fonts/fa-brands-400.woff2": "/glynn-admin/build/fonts/fa-brands-400.554f4f0a.woff2",
+  "build/images/fa-brands-400.svg": "/glynn-admin/build/images/fa-brands-400.3bd0b15a.svg"
 }
