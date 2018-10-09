@@ -52,6 +52,7 @@ $color-black: #000;
   .page-sidebar {
     background-color: $sidebar-background;
     position: relative;
+    z-index: 25;
   }
 }
 
