@@ -1,0 +1,12 @@
+{
+  "entrypoints": {
+    "glynn-admin": {
+      "css": [
+        "./glynn-admin.css"
+      ],
+      "js": [
+        "./glynn-admin.js"
+      ]
+    }
+  }
+}

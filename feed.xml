@@ -6,9 +6,34 @@
 </description>
     <link>https://disjfa.github.io/glynn-admin/</link>
     <atom:link href="https://disjfa.github.io/glynn-admin/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Oct 2018 21:27:39 +0000</pubDate>
-    <lastBuildDate>Tue, 09 Oct 2018 21:27:39 +0000</lastBuildDate>
+    <pubDate>Wed, 23 Jan 2019 22:16:25 +0000</pubDate>
+    <lastBuildDate>Wed, 23 Jan 2019 22:16:25 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>unpkg!</title>
+        <description>&lt;p&gt;So i was wondering on how to get my files hosted on a cdn and could not find an easy way.&lt;/p&gt;
+
+&lt;p&gt;Than i found &lt;a href=&quot;https://unpkg.com/&quot;&gt;unpkg.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Super easy to set up and hosts just files from npm through their service. Awesome!&lt;/p&gt;
+
+&lt;p&gt;So i made a &lt;a href=&quot;/glynn-admin/getting-started/&quot;&gt;Getting started&lt;/a&gt; page. Added some examples using unpkg to get you started more easy! 
+Enjoy!&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 23 Jan 2018 19:42:29 +0000</pubDate>
+        <link>https://disjfa.github.io/glynn-admin/css/unpkg/cdn/2018/01/23/unpkg.html</link>
+        <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/css/unpkg/cdn/2018/01/23/unpkg.html</guid>
+        
+        
+        <category>css</category>
+        
+        <category>unpkg</category>
+        
+        <category>cdn</category>
+        
+      </item>
     
       <item>
         <title>Bootstrap4!</title>
@@ -93,7 +118,7 @@ when you like.&lt;/p&gt;
         <title>Symfony, submenu</title>
         <description>&lt;h4 id=&quot;symfony&quot;&gt;Symfony&lt;/h4&gt;
 
-&lt;p&gt;I see html examples on the internet and think i miss the examples in the real world. So i started a symfony project and incapsulated this nice template and styles. I set it up with an actual user frontend using the &lt;a href=&quot;https://github.com/FriendsOfSymfony/FOSUserBundle&quot;&gt;FOSUserBundle&lt;/a&gt;. And exaple menu builder you can actually use, using the &lt;a href=&quot;http://symfony.com/doc/current/bundles/KnpMenuBundle/index.html&quot;&gt;KnpMenuBundle&lt;/a&gt;. You can find it on the &lt;a href=&quot;https://github.com/disjfa/glynn-admin-symfony&quot;&gt;github page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I see html examples on the internet and think i miss the examples in the real world. So i started a symfony project and incapsulated this nice template and styles. I set it up with an actual user frontend using the &lt;a href=&quot;https://github.com/FriendsOfSymfony/FOSUserBundle&quot;&gt;FOSUserBundle&lt;/a&gt;. And exaple menu builder you can actually use, using the &lt;a href=&quot;http://symfony.com/doc/current/bundles/KnpMenuBundle/index.html&quot;&gt;KnpMenuBundle&lt;/a&gt;. You can find it on the &lt;a href=&quot;https://github.com/disjfa/glynn-admin-symfony4&quot;&gt;github page&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&quot;submenu&quot;&gt;Submenu&lt;/h4&gt;
 
@@ -204,31 +229,6 @@ Double checked if nothing broke on my pages but it did not. So i can get my hand
         <pubDate>Wed, 03 Aug 2016 21:56:12 +0000</pubDate>
         <link>https://disjfa.github.io/glynn-admin/news/update/2016/08/03/submenu-and-forms.html</link>
         <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/08/03/submenu-and-forms.html</guid>
-        
-        
-        <category>news</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Updates, profile, social, awesome</title>
-        <description>&lt;p&gt;I updated some small things today, i wanted to add a profile page and add an image on the bottom of the menu.
-The first succeeded, the latter not so much. I played around with paddings and margins, but when the menu was too large i just could not put the profile button outside the screen.
-So i opted for the next best thing, add it on the top. It worked, you can check it out in the menu.
-I added a image on it, i use &lt;a href=&quot;https://unsplash.com/&quot;&gt;unsplash.con&lt;/a&gt; for pictures. This one is from &lt;a href=&quot;https://unsplash.com/photos/JAkWUtmsFXM&quot;&gt;Chris Leggat&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;On the profile page i also added some &lt;a href=&quot;https://lipis.github.io/bootstrap-social/&quot;&gt;social buttons&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I also played around with sizes, The menu on tablets (768px) is now a bit wider.&lt;/p&gt;
-
-&lt;p&gt;Oh, and some colors. I moved over to some &lt;a href=&quot;https://flatuicolors.com&quot;&gt;flat colors&lt;/a&gt; and upgraded the sidebar to encorporate one color and some variations.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 21 Jul 2016 20:00:03 +0000</pubDate>
-        <link>https://disjfa.github.io/glynn-admin/news/update/2016/07/21/profile-update.html</link>
-        <guid isPermaLink="true">https://disjfa.github.io/glynn-admin/news/update/2016/07/21/profile-update.html</guid>
         
         
         <category>news</category>

@@ -1,14 +1,14 @@
 {
-  "build/glynn-admin.js": "/glynn-admin/build/glynn-admin.js",
-  "build/glynn-admin.css": "/glynn-admin/build/glynn-admin.css",
-  "build/fonts/fa-solid-900.woff": "/glynn-admin/build/fonts/fa-solid-900.fc99cf29.woff",
-  "build/fonts/fa-solid-900.woff2": "/glynn-admin/build/fonts/fa-solid-900.946f7400.woff2",
-  "build/fonts/fa-solid-900.ttf": "/glynn-admin/build/fonts/fa-solid-900.d9e91b32.ttf",
-  "build/fonts/fa-brands-400.eot": "/glynn-admin/build/fonts/fa-brands-400.3cd80df0.eot",
-  "build/fonts/fa-brands-400.woff": "/glynn-admin/build/fonts/fa-brands-400.cb899fd0.woff",
-  "build/fonts/fa-solid-900.eot": "/glynn-admin/build/fonts/fa-solid-900.8edbef6a.eot",
-  "build/images/fa-solid-900.svg": "/glynn-admin/build/images/fa-solid-900.1d220cf9.svg",
-  "build/fonts/fa-brands-400.ttf": "/glynn-admin/build/fonts/fa-brands-400.94eef589.ttf",
-  "build/fonts/fa-brands-400.woff2": "/glynn-admin/build/fonts/fa-brands-400.554f4f0a.woff2",
-  "build/images/fa-brands-400.svg": "/glynn-admin/build/images/fa-brands-400.3bd0b15a.svg"
+  "build/glynn-admin.css": "./glynn-admin.css",
+  "build/glynn-admin.js": "./glynn-admin.js",
+  "build/fonts/fa-brands-400.ttf": "./fonts/fa-brands-400.50a544b5.ttf",
+  "build/fonts/fa-brands-400.eot": "./fonts/fa-brands-400.7d43b9ae.eot",
+  "build/fonts/fa-brands-400.woff2": "./fonts/fa-brands-400.b89c6c51.woff2",
+  "build/fonts/fa-brands-400.woff": "./fonts/fa-brands-400.dd4ff119.woff",
+  "build/fonts/fa-solid-900.ttf": "./fonts/fa-solid-900.1709a281.ttf",
+  "build/fonts/fa-solid-900.woff": "./fonts/fa-solid-900.52b8345b.woff",
+  "build/fonts/fa-solid-900.woff2": "./fonts/fa-solid-900.8086e197.woff2",
+  "build/fonts/fa-solid-900.eot": "./fonts/fa-solid-900.f72d546a.eot",
+  "build/images/fa-brands-400.svg": "./images/fa-brands-400.fef43c1f.svg",
+  "build/images/fa-solid-900.svg": "./images/fa-solid-900.27603739.svg"
 }

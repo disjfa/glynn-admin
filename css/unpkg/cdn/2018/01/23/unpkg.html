@@ -5,13 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Page with sidemenu</title>
-  <meta name="description" content="A simple admin page, responsive and beautiful. For useage on your own product. I has a lot of example use cases you can implement on your own site or admin page.
-">
+  <title>unpkg!</title>
+  <meta name="description" content="So i was wondering on how to get my files hosted on a cdn and could not find an easy way.">
 
   <link rel="stylesheet" href="/glynn-admin/build/glynn-admin.css">
   <link rel="stylesheet" href="/glynn-admin/css/highlight.css">
-  <link rel="canonical" href="https://disjfa.github.io/glynn-admin/sidemenu/">
+  <link rel="canonical" href="https://disjfa.github.io/glynn-admin/css/unpkg/cdn/2018/01/23/unpkg.html">
   <link rel="alternate" type="application/rss+xml" title="Glynn admin" href="https://disjfa.github.io/glynn-admin/feed.xml">
 </head>
 
@@ -363,7 +362,7 @@
     
         
             
-                <li class="active">
+                <li>
                     <a class="sidebar-link" href="/glynn-admin/sidemenu/">Page with sidemenu</a>
                 </li>
             
@@ -389,105 +388,30 @@
 
     <div class="page-body">
         <div class="page-main-bg container">
-            
-    <header>
-        <h1 class="page-title">Page with sidemenu</h1>
+            <article itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <h1 class="page-title" itemprop="name headline">
+            unpkg!
+            <br>
+            <small class="text-muted">
+                <time datetime="2018-01-23T19:42:29+00:00" itemprop="datePublished">Jan 23, 2018</time>
+            </small>
+        </h1>
     </header>
 
+    <div itemprop="articleBody">
+        <p>So i was wondering on how to get my files hosted on a cdn and could not find an easy way.</p>
 
-<p>
-    A page with a side menu. The basics is that it is on the side. When a small device sees the page the sidebar is collapsed and a collapse icon apears.
-</p>
+<p>Than i found <a href="https://unpkg.com/">unpkg.com</a></p>
 
-<div class="navbar-expand-lg">
-    <div class="row ">
-        <div class="d-lg-none col-12 bg-primary text-xs-right">
-            <a href="#side-menu" data-toggle="collapse" class="btn btn-default bg-primary text-white">
-                <i class="fa fa-life-ring"></i>
-                Show menu
-            </a>
-        </div>
-        <div class="col-lg-3 col-12 bg-info text-white collapse navbar-collapse py-1" id="side-menu">
-            <div>
-                <h3>
-                    Sidemenu
-                </h3>
-                <p>
-                    Here you can add a side menu, Or just add some info for the user. It is shown on large screens and hidden on small.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi corporis eligendi et fugiat harum ipsa odit quis quod repellendus rerum, sequi similique suscipit, voluptate? A accusamus aperiam autem dicta hic.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorem minus nesciunt, non perspiciatis repudiandae sapiente! Dolores enim possimus voluptas! Ad fugit itaque, iure officia quibusdam repudiandae ut voluptatibus voluptatum!
-                </p>
-            </div>
-        </div>
-        <div class="col-lg-9 col-12 py-1">
-            <h3>
-                Content
-            </h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus facere illum ipsam minima nobis numquam. Architecto atque cupiditate dolorem ea nesciunt, praesentium qui, rem repellat repudiandae, sapiente tempora totam voluptatem!
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur consequatur corporis cumque delectus dignissimos doloribus, ducimus et eum facilis illo iste minima nostrum obcaecati odit praesentium recusandae vero voluptas.
-            </p>
-        </div>
+<p>Super easy to set up and hosts just files from npm through their service. Awesome!</p>
+
+<p>So i made a <a href="/glynn-admin/getting-started/">Getting started</a> page. Added some examples using unpkg to get you started more easy! 
+Enjoy!</p>
+
+
     </div>
-</div>
-
-<hr>
-<h3>html</h3>
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar-expand-lg"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row "</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"d-lg-none col-12 bg-primary text-xs-right"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#side-menu"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">class=</span><span class="s">"btn btn-default bg-primary text-white"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-life-ring"</span><span class="nt">&gt;&lt;/i&gt;</span>
-                Show menu
-            <span class="nt">&lt;/a&gt;</span>
-        <span class="nt">&lt;/div&gt;</span>
-        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-lg-3 col-12 bg-info text-white collapse navbar-collapse py-1"</span> <span class="na">id=</span><span class="s">"side-menu"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;div&gt;</span>
-                <span class="nt">&lt;h3&gt;</span>
-                    Sidemenu
-                <span class="nt">&lt;/h3&gt;</span>
-                <span class="nt">&lt;p&gt;</span>
-                    Here you can add a side menu, Or just add some info for the user. It is shown on large screens and hidden on small.
-                <span class="nt">&lt;/p&gt;</span>
-                <span class="nt">&lt;p&gt;</span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi corporis eligendi et fugiat harum ipsa odit quis quod repellendus rerum, sequi similique suscipit, voluptate? A accusamus aperiam autem dicta hic.
-                <span class="nt">&lt;/p&gt;</span>
-                <span class="nt">&lt;p&gt;</span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorem minus nesciunt, non perspiciatis repudiandae sapiente! Dolores enim possimus voluptas! Ad fugit itaque, iure officia quibusdam repudiandae ut voluptatibus voluptatum!
-                <span class="nt">&lt;/p&gt;</span>
-            <span class="nt">&lt;/div&gt;</span>
-        <span class="nt">&lt;/div&gt;</span>
-        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-lg-9 col-12 py-1"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;h3&gt;</span>
-                Content
-            <span class="nt">&lt;/h3&gt;</span>
-            <span class="nt">&lt;p&gt;</span>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus facere illum ipsam minima nobis numquam. Architecto atque cupiditate dolorem ea nesciunt, praesentium qui, rem repellat repudiandae, sapiente tempora totam voluptatem!
-            <span class="nt">&lt;/p&gt;</span>
-            <span class="nt">&lt;p&gt;</span>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur consequatur corporis cumque delectus dignissimos doloribus, ducimus et eum facilis illo iste minima nostrum obcaecati odit praesentium recusandae vero voluptas.
-            <span class="nt">&lt;/p&gt;</span>
-        <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></figure>
-
-    <div class="row">
-        <div class="col-12 pt-3">
-            <a href="https://github.com/disjfa/glynn-admin/tree/master/site/pages/sidemenu/sidemenu.html" class="btn btn-outline-primary">
-                <i class="fab fa-github"></i>
-                edit on github
-            </a>
-        </div>
-    </div>
-
-
-
+</article>
 
 
             <div class="row">

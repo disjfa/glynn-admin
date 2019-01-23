@@ -5,13 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Page with sidemenu</title>
+  <title>Getting started</title>
   <meta name="description" content="A simple admin page, responsive and beautiful. For useage on your own product. I has a lot of example use cases you can implement on your own site or admin page.
 ">
 
   <link rel="stylesheet" href="/glynn-admin/build/glynn-admin.css">
   <link rel="stylesheet" href="/glynn-admin/css/highlight.css">
-  <link rel="canonical" href="https://disjfa.github.io/glynn-admin/sidemenu/">
+  <link rel="canonical" href="https://disjfa.github.io/glynn-admin/getting-started">
   <link rel="alternate" type="application/rss+xml" title="Glynn admin" href="https://disjfa.github.io/glynn-admin/feed.xml">
 </head>
 
@@ -107,7 +107,7 @@
     
         
             
-                <li>
+                <li class="active">
                     <a class="sidebar-link" href="/glynn-admin/getting-started">Getting started</a>
                 </li>
             
@@ -363,7 +363,7 @@
     
         
             
-                <li class="active">
+                <li>
                     <a class="sidebar-link" href="/glynn-admin/sidemenu/">Page with sidemenu</a>
                 </li>
             
@@ -391,100 +391,87 @@
         <div class="page-main-bg container">
             
     <header>
-        <h1 class="page-title">Page with sidemenu</h1>
+        <h1 class="page-title">Getting started</h1>
     </header>
 
 
-<p>
-    A page with a side menu. The basics is that it is on the side. When a small device sees the page the sidebar is collapsed and a collapse icon apears.
-</p>
+<div class="row">
+    <div class="col-12">
+        <h3>Npm</h3>
+        <p>
+            You can install the files using npm.
+        </p>
+        <figure class="highlight"><pre><code class="language-bash" data-lang="bash">npm install glynn-admin</code></pre></figure>
+        <p>
+            And just include the css or js.
+        </p>
+        <figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="k">@import</span> <span class="s2">"~glynn-admin/scss/glynn-admin"</span><span class="p">;</span></code></pre></figure>
+        <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kr">import</span> <span class="nx">from</span> <span class="s2">"glynn-admin/js/glynn-admin"</span><span class="p">;</span></code></pre></figure>
+        <h3>Unpkg</h3>
+        <p>
+            Or you can just include the css and javascript from <a href="https://unpkg.com/">unpkg.com</a>
+        </p>
+        <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- Glynn admin CSS --&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://unpkg.com/glynn-admin/site/build/glynn-admin.css"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;</span>
+<span class="c">&lt;!-- Optional JavaScript --&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://unpkg.com/glynn-admin/site/build/glynn-admin.js"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span></code></pre></figure>
+        <h3>Bootstrapping html</h3>
+        <p>
+            Or just copy and paste the bootstrap template and go on from there. Check it out
+            <a href="/glynn-admin/getting-started-example">here</a>.
+        </p>
+        <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!doctype html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+    <span class="c">&lt;!-- Required meta tags --&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1, shrink-to-fit=no"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Glynn admin CSS --&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://unpkg.com/glynn-admin/site/build/glynn-admin.css"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;</span>
 
-<div class="navbar-expand-lg">
-    <div class="row ">
-        <div class="d-lg-none col-12 bg-primary text-xs-right">
-            <a href="#side-menu" data-toggle="collapse" class="btn btn-default bg-primary text-white">
-                <i class="fa fa-life-ring"></i>
-                Show menu
-            </a>
-        </div>
-        <div class="col-lg-3 col-12 bg-info text-white collapse navbar-collapse py-1" id="side-menu">
-            <div>
-                <h3>
-                    Sidemenu
-                </h3>
-                <p>
-                    Here you can add a side menu, Or just add some info for the user. It is shown on large screens and hidden on small.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi corporis eligendi et fugiat harum ipsa odit quis quod repellendus rerum, sequi similique suscipit, voluptate? A accusamus aperiam autem dicta hic.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorem minus nesciunt, non perspiciatis repudiandae sapiente! Dolores enim possimus voluptas! Ad fugit itaque, iure officia quibusdam repudiandae ut voluptatibus voluptatum!
-                </p>
-            </div>
-        </div>
-        <div class="col-lg-9 col-12 py-1">
-            <h3>
-                Content
-            </h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus facere illum ipsam minima nobis numquam. Architecto atque cupiditate dolorem ea nesciunt, praesentium qui, rem repellat repudiandae, sapiente tempora totam voluptatem!
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur consequatur corporis cumque delectus dignissimos doloribus, ducimus et eum facilis illo iste minima nostrum obcaecati odit praesentium recusandae vero voluptas.
-            </p>
-        </div>
-    </div>
-</div>
-
-<hr>
-<h3>html</h3>
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"navbar-expand-lg"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row "</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"d-lg-none col-12 bg-primary text-xs-right"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#side-menu"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">class=</span><span class="s">"btn btn-default bg-primary text-white"</span><span class="nt">&gt;</span>
-                <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-life-ring"</span><span class="nt">&gt;&lt;/i&gt;</span>
-                Show menu
-            <span class="nt">&lt;/a&gt;</span>
-        <span class="nt">&lt;/div&gt;</span>
-        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-lg-3 col-12 bg-info text-white collapse navbar-collapse py-1"</span> <span class="na">id=</span><span class="s">"side-menu"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;div&gt;</span>
-                <span class="nt">&lt;h3&gt;</span>
-                    Sidemenu
-                <span class="nt">&lt;/h3&gt;</span>
-                <span class="nt">&lt;p&gt;</span>
-                    Here you can add a side menu, Or just add some info for the user. It is shown on large screens and hidden on small.
-                <span class="nt">&lt;/p&gt;</span>
-                <span class="nt">&lt;p&gt;</span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi corporis eligendi et fugiat harum ipsa odit quis quod repellendus rerum, sequi similique suscipit, voluptate? A accusamus aperiam autem dicta hic.
-                <span class="nt">&lt;/p&gt;</span>
-                <span class="nt">&lt;p&gt;</span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorem minus nesciunt, non perspiciatis repudiandae sapiente! Dolores enim possimus voluptas! Ad fugit itaque, iure officia quibusdam repudiandae ut voluptatibus voluptatum!
-                <span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Hello, world!<span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"page"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"page-sidebar"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"sidebar navbar navbar-expand-lg navbar-dark d-lg-block px-0"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"text-lg-center py-3 px-3"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"site-title"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+                    Site title
+                <span class="nt">&lt;/a&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"navbar-toggler mr-3"</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-target=</span><span class="s">"#main-menu"</span> <span class="na">aria-controls=</span><span class="s">"navbarText"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-label=</span><span class="s">"Toggle navigation"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"navbar-toggler-icon"</span><span class="nt">&gt;&lt;/span&gt;</span>
+            <span class="nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"collapse navbar-collapse"</span> <span class="na">id=</span><span class="s">"main-menu"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-12 px-0"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;ul</span> <span class="na">id=</span><span class="s">"menu"</span> <span class="na">class=</span><span class="s">"sidebar-menu"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;li&gt;</span>
+                            <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"sidebar-link"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Sidebar link<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;/li&gt;</span>
+                    <span class="nt">&lt;/ul&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>
             <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
-        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-lg-9 col-12 py-1"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;h3&gt;</span>
-                Content
-            <span class="nt">&lt;/h3&gt;</span>
-            <span class="nt">&lt;p&gt;</span>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus facere illum ipsam minima nobis numquam. Architecto atque cupiditate dolorem ea nesciunt, praesentium qui, rem repellat repudiandae, sapiente tempora totam voluptatem!
-            <span class="nt">&lt;/p&gt;</span>
-            <span class="nt">&lt;p&gt;</span>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur consequatur corporis cumque delectus dignissimos doloribus, ducimus et eum facilis illo iste minima nostrum obcaecati odit praesentium recusandae vero voluptas.
-            <span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/nav&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"page-body"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"page-main-bg container"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;header&gt;</span>
+                <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"page-title"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-home"</span><span class="nt">&gt;&lt;/i&gt;</span> Content<span class="nt">&lt;/h1&gt;</span>
+            <span class="nt">&lt;/header&gt;</span>
+            <span class="nt">&lt;main</span> <span class="na">class=</span><span class="s">"py-3"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;p&gt;</span>Here we can add content to the page.<span class="nt">&lt;/p&gt;</span>
+            <span class="nt">&lt;/main&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></figure>
-
-    <div class="row">
-        <div class="col-12 pt-3">
-            <a href="https://github.com/disjfa/glynn-admin/tree/master/site/pages/sidemenu/sidemenu.html" class="btn btn-outline-primary">
-                <i class="fab fa-github"></i>
-                edit on github
-            </a>
-        </div>
+<span class="nt">&lt;/div&gt;</span>
+<span class="c">&lt;!-- Optional JavaScript --&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://unpkg.com/glynn-admin/site/build/glynn-admin.js"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
     </div>
+</div>
 
 
 
